@@ -88,13 +88,13 @@ aside ul {
 }
 aside ul li {
     list-style-type: none;
-    padding: 15px;
+    padding: 16px;
     margin: 3px 0;
     cursor: pointer;
 }
 aside ul li:hover,
 aside ul li.active {
-    background-color: rgba(22, 10, 22, 0.051);
+    background-color: rgba(0, 0, 0, 0.128);
     color: rgb(139, 33, 232);
     border-right: 1px solid rgb(139, 33, 232);
     transition: 0.5s;
