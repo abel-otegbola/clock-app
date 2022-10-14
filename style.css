@@ -36,11 +36,34 @@ nav a i:hover {
 }
 nav button {
     display: none;
+    position: relative;
     padding: 7px 12px;
     margin-left: 10px;
     background-color: transparent;
     border: 1px solid rgba(153, 153, 153, 0.611);
     border-radius: 3px;
+}
+nav button:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 2px solid rgb(139, 33, 232);
+    animation: 1s call linear infinite;
+}
+@keyframes call {
+    from {
+        transform: scale(1, 1);
+        opacity: 0.5;
+    }
+    to {
+        transform: scale(1.5, 1.5);
+        opacity: 0;
+    }
 }
 
 section {
@@ -78,6 +101,7 @@ aside ul li.active {
 }
 aside ul li i {
     margin-right: 10px;
+    color: rgba(0, 0, 0, 0.499);
 }
 
 article {
@@ -177,6 +201,7 @@ footer {
         height: 100%;
         right: 0;
         top: 0;
+        box-shadow: -10px 0 20px rgba(0, 0, 0, 0.096);
         z-index: 1000;
     }
     aside.active {
@@ -185,6 +210,7 @@ footer {
     }
     aside ul li {
         display: flex;
+        align-items: center;
     }
     article {
         height: 80vh;

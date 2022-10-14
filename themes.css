@@ -12,7 +12,8 @@
     transition: 0.7s;
 }
 .dark nav a,
-.dark nav button {
+.dark nav button,
+.dark aside ul li i {
     color: rgba(255, 255, 255, 0.719);
 }
 
@@ -35,10 +36,10 @@
 /* 
     Glasmorphism
 */
-article[data-skin="glassmorphic"] {
+article[data-theme="glassmorphic"] {
     position: relative;
 }
-article[data-skin="glassmorphic"] .clock {
+article[data-theme="glassmorphic"] .clock {
     background:#ffffff6c url("assets/imgs/pngwing.com.png") no-repeat right top;
     background-size: cover;
     box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.162);
@@ -46,8 +47,8 @@ article[data-skin="glassmorphic"] .clock {
     backdrop-filter: blur(2px);
     z-index: 100;
 }
-article[data-skin="glassmorphic"]:before,
-article[data-skin="glassmorphic"]:after {
+article[data-theme="glassmorphic"]:before,
+article[data-theme="glassmorphic"]:after {
     content: "";
     position: absolute;
     transform: translate(-100px, -100px);
@@ -56,14 +57,14 @@ article[data-skin="glassmorphic"]:after {
     border-radius: 50%;
     background: linear-gradient(45deg, rgb(255, 25, 0), rgb(255, 221, 0));
 }
-article[data-skin="glassmorphic"]:after {
+article[data-theme="glassmorphic"]:after {
     border-radius: 20px;
     background: linear-gradient(45deg, rgb(234, 0, 113), rgb(255, 0, 0));
     transform: rotateZ(30deg) translate(150px, 0px);
 }
 
 
-.dark article[data-skin="glassmorphic"] .clock {
+.dark article[data-theme="glassmorphic"] .clock {
     background:#231e31be url("assets/imgs/pngwing-dark.png") no-repeat right top;
     background-size: cover;
     box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.339);
@@ -76,14 +77,14 @@ article[data-skin="glassmorphic"]:after {
     Vintage
 */
 
-article[data-skin="vintage"] .clock {
+article[data-theme="vintage"] .clock {
     border: 10px solid #c67614;
     background:  url("assets/imgs/pngwing-gold.png") left top no-repeat, url("assets/imgs/vintage.jpg") right bottom no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 20px rgba(10, 10, 10, 0.307);
 }
-article[data-skin="vintage"] .clock .hr:before,
-article[data-skin="vintage"] .clock .min:before {
+article[data-theme="vintage"] .clock .hr:before,
+article[data-theme="vintage"] .clock .min:before {
     background-color: yellow;
 }
 
@@ -93,13 +94,13 @@ article[data-skin="vintage"] .clock .min:before {
     Futuristic
 */
 
-article[data-skin="futuristic"] .clock {
+article[data-theme="futuristic"] .clock {
     border: 10px solid #231e31;
     background:  url("assets/imgs/pngwing-dark.png") left top no-repeat, url("assets/imgs/HUD.gif") right bottom no-repeat;
     background-size: cover;
 }
-article[data-skin="futuristic"] .clock .hr:before,
-article[data-skin="futuristic"] .clock .min:before {
+article[data-theme="futuristic"] .clock .hr:before,
+article[data-theme="futuristic"] .clock .min:before {
     background-color: rgba(255, 255, 255, 0.981);
 }
 
@@ -108,14 +109,14 @@ article[data-skin="futuristic"] .clock .min:before {
     Abstract
 */
 
-article[data-skin="abstract"] .clock {
+article[data-theme="abstract"] .clock {
     border: 10px solid #4a0707;
     background:  url("assets/imgs/pngwing-dark.png") left top no-repeat, url("assets/imgs/abstract.webp") right bottom no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.285);
 }
-article[data-skin="abstract"] .clock .hr:before,
-article[data-skin="abstract"] .clock .min:before {
+article[data-theme="abstract"] .clock .hr:before,
+article[data-theme="abstract"] .clock .min:before {
     background-color: rgba(255, 255, 255, 0.981);
 }
 
@@ -125,14 +126,14 @@ article[data-skin="abstract"] .clock .min:before {
     Wooden
 */
 
-article[data-skin="wooden"] .clock {
+article[data-theme="wooden"] .clock {
     background:  url("assets/imgs/pngwing-gold.png") left top no-repeat, url("assets/imgs/wood.jpg") right bottom no-repeat;
     background-size: cover;
     border: 10px solid rgb(74, 37, 12);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.285);
 }
-article[data-skin="wooden"] .clock .hr:before,
-article[data-skin="wooden"] .clock .min:before {
+article[data-theme="wooden"] .clock .hr:before,
+article[data-theme="wooden"] .clock .min:before {
     background-color: rgba(255, 255, 255, 0.981);
 }
 
@@ -142,21 +143,21 @@ article[data-skin="wooden"] .clock .min:before {
     Minimalist
 */
 
-article[data-skin="minimalist"] .clock {
+article[data-theme="minimalist"] .clock {
     background:  #fff;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.098);
 }
-article[data-skin="minimalist"] .clock .hr:before,
-article[data-skin="minimalist"] .clock .min:before {
+article[data-theme="minimalist"] .clock .hr:before,
+article[data-theme="minimalist"] .clock .min:before {
     background-color: #000;
 }
 
-.dark article[data-skin="minimalist"] .clock {
+.dark article[data-theme="minimalist"] .clock {
     background:  #2f2944;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.16);
 }
-.dark article[data-skin="minimalist"] .clock .hr:before,
-.dark article[data-skin="minimalist"] .clock .min:before {
+.dark article[data-theme="minimalist"] .clock .hr:before,
+.dark article[data-theme="minimalist"] .clock .min:before {
     background-color: #fff;
 }
 
@@ -166,20 +167,20 @@ article[data-skin="minimalist"] .clock .min:before {
     Neon
 */
 
-article[data-skin="neon"] .clock {
+article[data-theme="neon"] .clock {
     background: url("assets/imgs/pngwing-neon.png") left top no-repeat;
     background-size: cover;
     border: 10px solid rgba(255, 0, 242, 0.395);
     box-shadow: 5px 5px 50px rgba(188, 4, 255, 0.285);
 }
-article[data-skin="neon"] .clock .hr:before,
-article[data-skin="neon"] .clock .min:before {
+article[data-theme="neon"] .clock .hr:before,
+article[data-theme="neon"] .clock .min:before {
     background-color: #000;
 }
-article[data-skin="neon"] .clock:before,
-article[data-skin="neon"] .clock .hr:before,
-article[data-skin="neon"] .clock .min:before,
-article[data-skin="neon"] .clock .sec:before {
+article[data-theme="neon"] .clock:before,
+article[data-theme="neon"] .clock .hr:before,
+article[data-theme="neon"] .clock .min:before,
+article[data-theme="neon"] .clock .sec:before {
     background-color: rgb(255, 8, 239);
     box-shadow: 3px 3px 6px rgba(188, 4, 255, 0.534);
 }

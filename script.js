@@ -36,7 +36,7 @@ const add = (el, option) => {
 // Color theme functionality
 
 let colormode = localStorage.getItem("colormode")
-let colorButtons = document.querySelectorAll("section aside ul.themes li")
+let colorButtons = document.querySelectorAll("section aside ul.modes li")
 
 for(let i=0; i<colorButtons.length; i++) {
     colorButtons[i].addEventListener("click", () => {
@@ -63,28 +63,28 @@ if(colormode === "dark") {
 
 
 
-// Skins functionality
+// Themes functionality
 
-let skin = localStorage.getItem("skin")
-let skinButtons = document.querySelectorAll("section aside ul.skins li")
-let skinContainer = document.querySelector("section article")
+let theme = localStorage.getItem("theme")
+let themeButtons = document.querySelectorAll("section aside ul.themes li")
+let themeContainer = document.querySelector("section article")
 
-for(let i=0; i<skinButtons.length; i++) {
-    skinButtons[i].addEventListener("click", () => {
-        for(let j=0; j<skinButtons.length; j++) {
-            remove(skinButtons[j], "active")
+for(let i=0; i<themeButtons.length; i++) {
+    themeButtons[i].addEventListener("click", () => {
+        for(let j=0; j<themeButtons.length; j++) {
+            remove(themeButtons[j], "active")
         }
-        add(skinButtons[i], "active")
-        skinContainer.setAttribute("data-skin", skinButtons[i].getAttribute("data-skin"))
-        localStorage.setItem("skin", skinButtons[i].getAttribute("data-skin"))
+        add(themeButtons[i], "active")
+        themeContainer.setAttribute("data-theme", themeButtons[i].getAttribute("data-theme"))
+        localStorage.setItem("theme", themeButtons[i].getAttribute("data-theme"))
     })
 }
 // Get the skin when app loads
-skinContainer.setAttribute("data-skin", skin)
-for(let i=0; i<skinButtons.length; i++) {
-    remove(skinButtons[i], "active")
-    if(skinButtons[i].getAttribute("data-skin") === skin) {
-        add(skinButtons[i], "active")
+themeContainer.setAttribute("data-theme", skin)
+for(let i=0; i<themeButtons.length; i++) {
+    remove(themeButtons[i], "active")
+    if(themeButtons[i].getAttribute("data-theme") === theme) {
+        add(themeButtons[i], "active")
     }
 }
 
