@@ -1,5 +1,5 @@
 .dark {
-    background-color: #291832;
+    background-color: #282039;
     transition: 0.7s;
     color: #fff;
 }
@@ -7,7 +7,7 @@
 .dark section aside,
 .dark section article,
 .dark footer {
-    background-color: #1c1022;
+    background-color: #231e31;
     color: rgba(255, 255, 255, 0.719);
     transition: 0.7s;
 }
@@ -17,9 +17,10 @@
 }
 
 .dark .clock {
-    background:#1c1022 url("assets/imgs/pngwing-dark.png") no-repeat right top;
+    background:#231e31 url("assets/imgs/pngwing-dark.png") no-repeat right top;
     background-size: cover;
-    box-shadow: -5px -5px 10px rgba(114, 92, 125, 0.21),
+    border: 10px solid #231e31;
+    box-shadow: -5px -5px 10px rgba(184, 170, 192, 0.21),
                 inset 5px 5px 10px rgba(0, 0, 0, 0.4),
                 inset -5px -5px 10px rgba(114, 92, 125, 0.339),
                 5px 5px 20px rgba(0, 0, 0, 0.433);
@@ -28,6 +29,8 @@
 .dark .min:before {
     background-color: rgba(255, 255, 255, 0.676);
 }
+
+
 
 /* 
     Glasmorphism
@@ -39,6 +42,7 @@ article[data-skin="glassmorphic"] .clock {
     background:#ffffff6c url("assets/imgs/pngwing.com.png") no-repeat right top;
     background-size: cover;
     box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.162);
+    border: none;
     backdrop-filter: blur(2px);
     z-index: 100;
 }
@@ -60,7 +64,7 @@ article[data-skin="glassmorphic"]:after {
 
 
 .dark article[data-skin="glassmorphic"] .clock {
-    background:#1c1022be url("assets/imgs/pngwing-dark.png") no-repeat right top;
+    background:#231e31be url("assets/imgs/pngwing-dark.png") no-repeat right top;
     background-size: cover;
     box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.339);
 }
@@ -76,6 +80,7 @@ article[data-skin="vintage"] .clock {
     border: 10px solid #c67614;
     background:  url("assets/imgs/pngwing-gold.png") left top no-repeat, url("assets/imgs/vintage.jpg") right bottom no-repeat;
     background-size: cover;
+    box-shadow: 5px 5px 20px rgba(10, 10, 10, 0.307);
 }
 article[data-skin="vintage"] .clock .hr:before,
 article[data-skin="vintage"] .clock .min:before {
@@ -89,7 +94,7 @@ article[data-skin="vintage"] .clock .min:before {
 */
 
 article[data-skin="futuristic"] .clock {
-    border: 10px solid #1c1022;
+    border: 10px solid #231e31;
     background:  url("assets/imgs/pngwing-dark.png") left top no-repeat, url("assets/imgs/HUD.gif") right bottom no-repeat;
     background-size: cover;
 }
@@ -123,6 +128,7 @@ article[data-skin="abstract"] .clock .min:before {
 article[data-skin="wooden"] .clock {
     background:  url("assets/imgs/pngwing-gold.png") left top no-repeat, url("assets/imgs/wood.jpg") right bottom no-repeat;
     background-size: cover;
+    border: 10px solid rgb(74, 37, 12);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.285);
 }
 article[data-skin="wooden"] .clock .hr:before,
@@ -146,6 +152,10 @@ article[data-skin="minimalist"] .clock .min:before {
 }
 
 .dark article[data-skin="minimalist"] .clock {
-    background:  #1c0d22;
+    background:  #2f2944;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.16);
+}
+.dark article[data-skin="minimalist"] .clock .hr:before,
+.dark article[data-skin="minimalist"] .clock .min:before {
+    background-color: #fff;
 }

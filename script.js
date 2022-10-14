@@ -18,7 +18,7 @@ function toggleMenu() {
 }
 
 
-// Classlist changes selector
+// Classlist changes selector helpers
 const remove = (el, option) => {
     el.classList.remove(option)
 }
@@ -79,3 +79,8 @@ for(let i=0; i<skinButtons.length; i++) {
         add(skinButtons[i], "active")
     }
 }
+
+
+
+// Footer year
+document.querySelector("footer .footer-year").textContent = new Date().getFullYear();

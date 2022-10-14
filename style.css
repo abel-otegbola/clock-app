@@ -36,7 +36,8 @@ nav a i:hover {
 }
 nav button {
     display: none;
-    padding: 7px 10px;
+    padding: 7px 12px;
+    margin-left: 10px;
     background-color: transparent;
     border: 1px solid rgba(153, 153, 153, 0.611);
     border-radius: 3px;
@@ -98,7 +99,8 @@ article {
     background: rgb(240, 243, 244) url("assets/imgs/pngwing.com.png") no-repeat right top;
     background-size: cover;
     border-radius: 50%;
-    box-shadow: -5px -5px 10px rgb(255, 255, 255),
+    border: 10px solid rgb(240, 243, 244);
+    box-shadow: -5px -5px 20px rgb(255, 255, 255),
                 inset 5px 5px 10px rgba(0, 0, 0, 0.174),
                 inset -5px -5px 10px rgba(255, 255, 255, 0.778),
                 5px 5px 20px rgba(0, 0, 0, 0.237);
@@ -135,7 +137,7 @@ article {
     height: 50%;
     background-color: #000;
     transition: 1s;
-    border-radius: 25% 25% 0 0;
+    border-radius: 40% 40% 0 0;
 }
 
 .clock .sec::before {
@@ -153,7 +155,10 @@ article {
 }
 
 footer {
-    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(240, 243, 244);
     padding: 3.2%;
     margin-top: 10px;
 }
@@ -175,7 +180,7 @@ footer {
         z-index: 1000;
     }
     aside.active {
-        width: 50%;
+        width: 75%;
         transition: 0.7s;
     }
     aside ul li {
