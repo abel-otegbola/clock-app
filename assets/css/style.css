@@ -182,7 +182,7 @@ article {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: rgb(240, 243, 244);
     padding: 3.2%;
