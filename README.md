@@ -1,6 +1,6 @@
 
 
-## Clock app (Quizzical poincare)
+## Clock app
 
  An HTML,CSS and Javascript clock application.
 <hr>
