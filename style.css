@@ -102,6 +102,9 @@ aside ul li.active {
 aside ul li i {
     margin-right: 10px;
 }
+aside up li:hover i {
+    color: rgb(139, 33, 232);
+}
 
 article {
     display: flex;
