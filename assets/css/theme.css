@@ -2,10 +2,11 @@
     Glasmorphism
 */
 
-article[data-theme="glassmorphic"] {
+article[data-theme="glassmorphism"] {
     position: relative;
+    overflow: hidden;
 }
-article[data-theme="glassmorphic"] .clock {
+article[data-theme="glassmorphism"] .clock {
     background:#ffffff6c url("../imgs/roman.png") no-repeat right top;
     background-size: cover;
     box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.162);
@@ -13,8 +14,8 @@ article[data-theme="glassmorphic"] .clock {
     backdrop-filter: blur(2px);
     z-index: 100;
 }
-article[data-theme="glassmorphic"]:before,
-article[data-theme="glassmorphic"]:after {
+article[data-theme="glassmorphism"]:before,
+article[data-theme="glassmorphism"]:after {
     content: "";
     position: absolute;
     transform: translate(-100px, -100px);
@@ -22,12 +23,37 @@ article[data-theme="glassmorphic"]:after {
     height: 150px;
     border-radius: 50%;
     background: linear-gradient(45deg, rgb(255, 25, 0), rgb(255, 221, 0));
+    animation: 4s move1 linear infinite;
 }
-article[data-theme="glassmorphic"]:after {
-    border-radius: 20px;
-    background: linear-gradient(45deg, rgb(234, 0, 113), rgb(255, 0, 0));
-    transform: rotateZ(30deg) translate(150px, 0px);
+article[data-theme="glassmorphism"]:after {
+    background: linear-gradient(45deg, rgb(234, 0, 113), rgb(47, 0, 255));
+    transform: translate(150px, 0px);
+    animation: 6s move2 ease-in infinite;
 }
+
+@keyframes move1 {
+    0% {
+        transform: translate(-100px, -100px);
+    }
+    50% {
+        transform: translate(-100px, -150px);
+    }
+    100% {
+        transform: translate(-100px, -100px);
+    }
+}
+@keyframes move2 {
+    0% {
+        transform: translate(150px, 0);
+    }
+    50% {
+        transform: translate(100px, 0px);
+    }
+    100% {
+        transform: translate(150px, 0px);
+    }
+}
+
 
 
 
