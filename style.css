@@ -26,7 +26,7 @@ nav .socials {
 }
 nav a {
     padding: 7px 10px;
-    margin-left: 10px;
+    margin-left: 20px;
     border-radius: 20px;
     color: #000;
     background-color: rgba(0, 0, 0, 0.036);
@@ -38,7 +38,7 @@ nav button {
     display: none;
     position: relative;
     padding: 7px 12px;
-    margin-left: 10px;
+    margin-left: 20px;
     background-color: transparent;
     border: 1px solid rgba(153, 153, 153, 0.611);
     border-radius: 3px;
