@@ -80,7 +80,7 @@ for(let i=0; i<themeButtons.length; i++) {
     })
 }
 // Get the skin when app loads
-themeContainer.setAttribute("data-theme", skin)
+themeContainer.setAttribute("data-theme", theme)
 for(let i=0; i<themeButtons.length; i++) {
     remove(themeButtons[i], "active")
     if(themeButtons[i].getAttribute("data-theme") === theme) {

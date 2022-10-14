@@ -1,45 +1,12 @@
-.dark {
-    background-color: #282039;
-    transition: 0.7s;
-    color: #fff;
-}
-.dark nav,
-.dark section aside,
-.dark section article,
-.dark footer {
-    background-color: #231e31;
-    color: rgba(255, 255, 255, 0.719);
-    transition: 0.7s;
-}
-.dark nav a,
-.dark nav button {
-    color: rgba(255, 255, 255, 0.719);
-}
-
-.dark .clock {
-    background:#231e31 url("assets/imgs/pngwing-dark.png") no-repeat right top;
-    background-size: cover;
-    border: 10px solid #231e31;
-    box-shadow: -5px -5px 10px rgba(184, 170, 192, 0.21),
-                inset 5px 5px 10px rgba(0, 0, 0, 0.4),
-                inset -5px -5px 10px rgba(114, 92, 125, 0.339),
-                5px 5px 20px rgba(0, 0, 0, 0.433);
-}
-.dark .hr:before,
-.dark .min:before {
-    background-color: rgba(255, 255, 255, 0.676);
-}
-
-
-
 /* 
     Glasmorphism
 */
+
 article[data-theme="glassmorphic"] {
     position: relative;
 }
 article[data-theme="glassmorphic"] .clock {
-    background:#ffffff6c url("assets/imgs/pngwing.com.png") no-repeat right top;
+    background:#ffffff6c url("../imgs/roman.png") no-repeat right top;
     background-size: cover;
     box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.162);
     border: none;
@@ -63,13 +30,6 @@ article[data-theme="glassmorphic"]:after {
 }
 
 
-.dark article[data-theme="glassmorphic"] .clock {
-    background:#231e31be url("assets/imgs/pngwing-dark.png") no-repeat right top;
-    background-size: cover;
-    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.339);
-}
-
-
 
 
 /*
@@ -78,7 +38,7 @@ article[data-theme="glassmorphic"]:after {
 
 article[data-theme="vintage"] .clock {
     border: 10px solid #c67614;
-    background:  url("assets/imgs/pngwing-gold.png") left top no-repeat, url("assets/imgs/vintage.jpg") right bottom no-repeat;
+    background:  url("../imgs/roman-gold.png") left top no-repeat, url("../imgs/vintage.jpg") right bottom no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 20px rgba(10, 10, 10, 0.307);
 }
@@ -95,7 +55,7 @@ article[data-theme="vintage"] .clock .min:before {
 
 article[data-theme="futuristic"] .clock {
     border: 10px solid #231e31;
-    background:  url("assets/imgs/pngwing-dark.png") left top no-repeat, url("assets/imgs/HUD.gif") right bottom no-repeat;
+    background:  url("../imgs/roman-dark.png") left top no-repeat, url("../imgs/HUD.gif") right bottom no-repeat;
     background-size: cover;
 }
 article[data-theme="futuristic"] .clock .hr:before,
@@ -110,7 +70,7 @@ article[data-theme="futuristic"] .clock .min:before {
 
 article[data-theme="abstract"] .clock {
     border: 10px solid #4a0707;
-    background:  url("assets/imgs/pngwing-dark.png") left top no-repeat, url("assets/imgs/abstract.webp") right bottom no-repeat;
+    background:  url("../imgs/roman-dark.png") left top no-repeat, url("../imgs/abstract.webp") right bottom no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.285);
 }
@@ -126,7 +86,7 @@ article[data-theme="abstract"] .clock .min:before {
 */
 
 article[data-theme="wooden"] .clock {
-    background:  url("assets/imgs/pngwing-gold.png") left top no-repeat, url("assets/imgs/wood.jpg") right bottom no-repeat;
+    background:  url("../imgs/roman-gold.png") left top no-repeat, url("../imgs/wood.jpg") right bottom no-repeat;
     background-size: cover;
     border: 10px solid rgb(74, 37, 12);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.285);
@@ -151,14 +111,6 @@ article[data-theme="minimalist"] .clock .min:before {
     background-color: #000;
 }
 
-.dark article[data-theme="minimalist"] .clock {
-    background:  #2f2944;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.16);
-}
-.dark article[data-theme="minimalist"] .clock .hr:before,
-.dark article[data-theme="minimalist"] .clock .min:before {
-    background-color: #fff;
-}
 
 
 
@@ -167,7 +119,7 @@ article[data-theme="minimalist"] .clock .min:before {
 */
 
 article[data-theme="neon"] .clock {
-    background: url("assets/imgs/pngwing-neon.png") left top no-repeat;
+    background: url("../imgs/roman-neon.png") left top no-repeat;
     background-size: cover;
     border: 10px solid rgba(255, 0, 242, 0.395);
     box-shadow: 5px 5px 50px rgba(188, 4, 255, 0.285);

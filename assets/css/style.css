@@ -12,7 +12,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    padding: 0 3.2%;
+    padding: 5px 3.2%;
     margin-bottom: 10px;
     box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.077);
     transition: 0.7s;
@@ -122,7 +122,7 @@ article {
 .clock {
     width: 250px;
     height: 250px;
-    background: rgb(240, 243, 244) url("assets/imgs/pngwing.com.png") no-repeat right top;
+    background: rgb(240, 243, 244) url("../imgs/roman.png") no-repeat right top;
     background-size: cover;
     border-radius: 50%;
     border: 10px solid rgb(240, 243, 244);
