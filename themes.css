@@ -1,0 +1,151 @@
+.dark {
+    background-color: #291832;
+    transition: 0.7s;
+    color: #fff;
+}
+.dark nav,
+.dark section aside,
+.dark section article,
+.dark footer {
+    background-color: #1c1022;
+    color: rgba(255, 255, 255, 0.719);
+    transition: 0.7s;
+}
+.dark nav a,
+.dark nav button {
+    color: rgba(255, 255, 255, 0.719);
+}
+
+.dark .clock {
+    background:#1c1022 url("assets/imgs/pngwing-dark.png") no-repeat right top;
+    background-size: cover;
+    box-shadow: -5px -5px 10px rgba(114, 92, 125, 0.21),
+                inset 5px 5px 10px rgba(0, 0, 0, 0.4),
+                inset -5px -5px 10px rgba(114, 92, 125, 0.339),
+                5px 5px 20px rgba(0, 0, 0, 0.433);
+}
+.dark .hr:before,
+.dark .min:before {
+    background-color: rgba(255, 255, 255, 0.676);
+}
+
+/* 
+    Glasmorphism
+*/
+article[data-skin="glassmorphic"] {
+    position: relative;
+}
+article[data-skin="glassmorphic"] .clock {
+    background:#ffffff6c url("assets/imgs/pngwing.com.png") no-repeat right top;
+    background-size: cover;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.162);
+    backdrop-filter: blur(2px);
+    z-index: 100;
+}
+article[data-skin="glassmorphic"]:before,
+article[data-skin="glassmorphic"]:after {
+    content: "";
+    position: absolute;
+    transform: translate(-100px, -100px);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgb(255, 25, 0), rgb(255, 221, 0));
+}
+article[data-skin="glassmorphic"]:after {
+    border-radius: 20px;
+    background: linear-gradient(45deg, rgb(234, 0, 113), rgb(255, 0, 0));
+    transform: rotateZ(30deg) translate(150px, 0px);
+}
+
+
+.dark article[data-skin="glassmorphic"] .clock {
+    background:#1c1022be url("assets/imgs/pngwing-dark.png") no-repeat right top;
+    background-size: cover;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.339);
+}
+
+
+
+
+/*
+    Vintage
+*/
+
+article[data-skin="vintage"] .clock {
+    border: 10px solid #c67614;
+    background:  url("assets/imgs/pngwing-gold.png") left top no-repeat, url("assets/imgs/vintage.jpg") right bottom no-repeat;
+    background-size: cover;
+}
+article[data-skin="vintage"] .clock .hr:before,
+article[data-skin="vintage"] .clock .min:before {
+    background-color: yellow;
+}
+
+
+
+/*
+    Futuristic
+*/
+
+article[data-skin="futuristic"] .clock {
+    border: 10px solid #1c1022;
+    background:  url("assets/imgs/pngwing-dark.png") left top no-repeat, url("assets/imgs/HUD.gif") right bottom no-repeat;
+    background-size: cover;
+}
+article[data-skin="futuristic"] .clock .hr:before,
+article[data-skin="futuristic"] .clock .min:before {
+    background-color: rgba(255, 255, 255, 0.981);
+}
+
+
+/*
+    Abstract
+*/
+
+article[data-skin="abstract"] .clock {
+    border: 10px solid #4a0707;
+    background:  url("assets/imgs/pngwing-dark.png") left top no-repeat, url("assets/imgs/abstract.webp") right bottom no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.285);
+}
+article[data-skin="abstract"] .clock .hr:before,
+article[data-skin="abstract"] .clock .min:before {
+    background-color: rgba(255, 255, 255, 0.981);
+}
+
+
+
+/*
+    Wooden
+*/
+
+article[data-skin="wooden"] .clock {
+    background:  url("assets/imgs/pngwing-gold.png") left top no-repeat, url("assets/imgs/wood.jpg") right bottom no-repeat;
+    background-size: cover;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.285);
+}
+article[data-skin="wooden"] .clock .hr:before,
+article[data-skin="wooden"] .clock .min:before {
+    background-color: rgba(255, 255, 255, 0.981);
+}
+
+
+
+/*
+    Minimalist
+*/
+
+article[data-skin="minimalist"] .clock {
+    background:  #fff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.098);
+}
+article[data-skin="minimalist"] .clock .hr:before,
+article[data-skin="minimalist"] .clock .min:before {
+    background-color: #000;
+}
+
+.dark article[data-skin="minimalist"] .clock {
+    background:  #1c0d22;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.16);
+}

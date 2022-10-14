@@ -1,0 +1,194 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    transition: 0.7s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 3.2%;
+    margin-bottom: 10px;
+    box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.077);
+    transition: 0.7s;
+}
+nav h3 {
+    color: rgb(139, 33, 232);
+}
+nav .socials {
+    display: flex;
+    align-items: center;
+}
+nav a {
+    padding: 7px 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.036);
+}
+nav a i:hover {
+    color: rgb(139, 33, 232);
+}
+nav button {
+    display: none;
+    padding: 7px 10px;
+    background-color: transparent;
+    border: 1px solid rgba(153, 153, 153, 0.611);
+    border-radius: 3px;
+}
+
+section {
+    display: flex;
+}
+aside {
+    width: 230px;
+    padding: 0 0 20px 0;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.162);
+    transition: 0.7s;
+}
+aside p {
+    margin: 30px 0 10px 35px;
+    font-weight: 500;
+    color: rgb(219, 47, 4);
+}
+aside ul {
+    margin: 0;
+    padding: 0;
+}
+aside ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin: 3px 0;
+    cursor: pointer;
+}
+aside ul li:hover,
+aside ul li.active {
+    background-color: rgba(174, 125, 174, 0.113);
+    color: rgb(139, 33, 232);
+    border-right: 2px solid rgb(139, 33, 232);
+    transition: 0.5s;
+}
+aside ul li i {
+    margin-right: 10px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 5%;
+    padding-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(240, 243, 244);
+    box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.162);
+    transition: 0.7s;
+}
+
+.clock {
+    width: 250px;
+    height: 250px;
+    background: rgb(240, 243, 244) url("assets/imgs/pngwing.com.png") no-repeat right top;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: -5px -5px 10px rgb(255, 255, 255),
+                inset 5px 5px 10px rgba(0, 0, 0, 0.174),
+                inset -5px -5px 10px rgba(255, 255, 255, 0.778),
+                5px 5px 20px rgba(0, 0, 0, 0.237);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.clock:before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgb(214, 61, 18);
+    z-index: 2;
+}
+
+.clock .hr,
+.clock .min,
+.clock .sec {
+    position: absolute;
+    width: 2px;
+    height: 100px;
+}
+.clock .hr::before,
+.clock .min::before,
+.clock .sec::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: #000;
+    transition: 1s;
+    border-radius: 25% 25% 0 0;
+}
+
+.clock .sec::before {
+    height: 85%;
+    transform: translateY(-25px);
+    background-color: red;
+}
+.clock .hr::before {
+    height: 40%;
+    transform: translateY(10px);
+}
+.clock .min::before {
+    height: 60%;
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #fff;
+    padding: 3.2%;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 500px) {
+    nav button {
+        display: block;
+        position: relative;
+        z-index: 10000;
+    }
+    aside {
+        position: fixed;
+        width: 0;
+        overflow-x: hidden;
+        height: 100%;
+        right: 0;
+        top: 0;
+        z-index: 1000;
+    }
+    aside.active {
+        width: 50%;
+        transition: 0.7s;
+    }
+    aside ul li {
+        display: flex;
+    }
+    article {
+        height: 80vh;
+        margin: 0;
+    }
+}
+@media (max-width: 350px) {
+    aside.active {
+        width: 100%;
+        transition: 0.7s;
+    }
+}
