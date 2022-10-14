@@ -94,16 +94,16 @@ aside ul li {
 }
 aside ul li:hover,
 aside ul li.active {
-    background-color: rgba(174, 125, 174, 0.113);
+    background-color: rgba(22, 10, 22, 0.051);
     color: rgb(139, 33, 232);
-    border-right: 2px solid rgb(139, 33, 232);
+    border-right: 1px solid rgb(139, 33, 232);
     transition: 0.5s;
 }
 aside ul li i {
     margin-right: 10px;
 }
 aside up li:hover i {
-    color: rgb(139, 33, 232);
+    color: rgb(151, 58, 232);
 }
 
 article {

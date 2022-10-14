@@ -63,7 +63,7 @@ article[data-theme="glassmorphism"]:after {
 */
 
 article[data-theme="vintage"] .clock {
-    border: 10px solid #c67614;
+    border: 10px solid #381914;
     background:  url("../imgs/roman-gold.png") left top no-repeat, url("../imgs/vintage.jpg") right bottom no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 20px rgba(10, 10, 10, 0.307);

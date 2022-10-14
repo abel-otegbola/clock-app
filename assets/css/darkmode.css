@@ -7,7 +7,7 @@
 .dark section aside,
 .dark section article,
 .dark footer {
-    background-color: #231e31;
+    background-color: #2c283a;
     color: rgba(255, 255, 255, 0.872);
     transition: 0.7s;
 }
@@ -17,9 +17,9 @@
 }
 
 .dark .clock {
-    background:#231e31 url("../imgs/roman-dark.png") no-repeat right top;
+    background:#2c283a url("../imgs/roman-dark.png") no-repeat right top;
     background-size: cover;
-    border: 10px solid #231e31;
+    border: 10px solid #2c283a;
     box-shadow: -5px -5px 10px rgba(184, 170, 192, 0.21),
                 inset 5px 5px 10px rgba(0, 0, 0, 0.4),
                 inset -5px -5px 10px rgba(114, 92, 125, 0.339),
@@ -35,7 +35,7 @@
     Glassmorphism dark
 */
 .dark article[data-theme="glassmorphism"] .clock {
-    background:#231e31be url("../imgs/roman-dark.png") no-repeat right top;
+    background:#2c283abe url("../imgs/roman-dark.png") no-repeat right top;
     background-size: cover;
     box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.339);
 }
