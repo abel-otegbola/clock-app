@@ -12,8 +12,7 @@
     transition: 0.7s;
 }
 .dark nav a,
-.dark nav button,
-.dark aside ul li i {
+.dark nav button {
     color: rgba(255, 255, 255, 0.719);
 }
 
