@@ -159,3 +159,27 @@ article[data-skin="minimalist"] .clock .min:before {
 .dark article[data-skin="minimalist"] .clock .min:before {
     background-color: #fff;
 }
+
+
+
+/*
+    Neon
+*/
+
+article[data-skin="neon"] .clock {
+    background: url("assets/imgs/pngwing-neon.png") left top no-repeat;
+    background-size: cover;
+    border: 10px solid rgba(255, 0, 242, 0.395);
+    box-shadow: 5px 5px 50px rgba(188, 4, 255, 0.285);
+}
+article[data-skin="neon"] .clock .hr:before,
+article[data-skin="neon"] .clock .min:before {
+    background-color: #000;
+}
+article[data-skin="neon"] .clock:before,
+article[data-skin="neon"] .clock .hr:before,
+article[data-skin="neon"] .clock .min:before,
+article[data-skin="neon"] .clock .sec:before {
+    background-color: rgb(255, 8, 239);
+    box-shadow: 3px 3px 6px rgba(188, 4, 255, 0.534);
+}

@@ -11,11 +11,15 @@ setInterval(() => {
 }, 1000)
 
 
+
+
 // Mobile menu functionality
 
 function toggleMenu() {
     document.querySelector("aside").classList.toggle("active")
 }
+
+
 
 
 // Classlist changes selector helpers
@@ -25,6 +29,8 @@ const remove = (el, option) => {
 const add = (el, option) => {
     el.classList.add(option)
 }
+
+
 
 
 // Color theme functionality
@@ -55,6 +61,8 @@ if(colormode === "dark") {
 
 
 
+
+
 // Skins functionality
 
 let skin = localStorage.getItem("skin")
@@ -71,7 +79,7 @@ for(let i=0; i<skinButtons.length; i++) {
         localStorage.setItem("skin", skinButtons[i].getAttribute("data-skin"))
     })
 }
-
+// Get the skin when app loads
 skinContainer.setAttribute("data-skin", skin)
 for(let i=0; i<skinButtons.length; i++) {
     remove(skinButtons[i], "active")
@@ -79,6 +87,8 @@ for(let i=0; i<skinButtons.length; i++) {
         add(skinButtons[i], "active")
     }
 }
+
+
 
 
 
