@@ -91,6 +91,7 @@ aside ul li {
     padding: 15px;
     margin: 3px 0;
     cursor: pointer;
+    color: rgba(0, 0, 0, 0.499);
 }
 aside ul li:hover,
 aside ul li.active {
@@ -101,7 +102,6 @@ aside ul li.active {
 }
 aside ul li i {
     margin-right: 10px;
-    color: rgba(0, 0, 0, 0.499);
 }
 
 article {
