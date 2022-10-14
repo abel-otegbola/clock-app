@@ -4,6 +4,9 @@
 
  An HTML,CSS and Javascript clock application.
 <hr>
+<img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/1.png" width="100%" />
+
+<hr>
 
 ## Features
 - Clean user interface<br>
@@ -11,6 +14,19 @@
 - Multiple skins for clock<be>
 
 visit live site [here](https://abel-otegbola.github.io/clock-app)
+
+<hr>
+
+## Screenshots
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/2.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/3.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/4.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/5.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/6.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/7.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/8.png" width="30%" />
+</p>
 
 <hr>
 
