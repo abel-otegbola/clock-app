@@ -121,3 +121,8 @@ open the index.html in your browser.
 
 ### You may also like
 Check out my awesome [Quiz app](https://github.com/abel-otegbola/quiz-app) built with javascript
+  
+## Contributors
+<a href="https://github.com/abel-otegbola/clock-app/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=abel-otegbola/clock-app" />
+</a>  
