@@ -80,7 +80,7 @@ git push -u origin <your_branch_name>
 - Multiple clock themes<be>
 
 ### Themes
-Neumorphism, Glassmorphism, Vintage, Abstract, Wooden, Futuristic, Minimalist, Neon etc.
+Neumorphism, Glassmorphism, Vintage, Abstract, Wooden, Futuristic, Minimalist, Neon, Endless.
 
 visit live site [here](https://abel-otegbola.github.io/clock-app)
 
@@ -96,6 +96,7 @@ visit live site [here](https://abel-otegbola.github.io/clock-app)
   <img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/6.png" width="30%" />
   <img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/7.png" width="30%" />
   <img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/8.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/9.png" width="30%" />
 </p>
 
 <hr>
