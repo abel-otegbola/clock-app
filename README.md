@@ -77,7 +77,7 @@ git push -u origin <your_branch_name>
 ## Features
 - Clean user interface<br>
 - Light and Dark mode<br>
-- Multiple clock themes<be>
+- Multiple clock themes<br>
 
 ### Themes
 Neumorphism, Glassmorphism, Vintage, Abstract, Wooden, Futuristic, Minimalist, Neon, Endless.
