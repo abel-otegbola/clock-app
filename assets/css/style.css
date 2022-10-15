@@ -108,11 +108,10 @@ aside up li:hover i {
 
 article {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex: 1;
     padding: 5%;
-    padding-top: 20px;
+    padding-top: 13%;
     margin-left: 10px;
     background-color: rgb(240, 243, 244);
     box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.162);
@@ -181,12 +180,38 @@ article {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(240, 243, 244);
     padding: 3.2%;
     margin-top: 10px;
+}
+footer p {
+    text-align: center;
+}
+footer .social{    
+    display: flex;
+    justify-content: center;
+    padding: 0;    
+    margin: 0;
+} 
+footer .social li{
+    list-style: none;
+}
+footer .social li a{
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+footer .social li a .fab{
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid rgba(5, 5, 5, 0.751);
+    color: rgba(0, 0, 0, 0.703);
+    transition: 0.7s;
+}
+footer .social li a .fab:hover {
+    border-color: rgb(139, 33, 232);
+    color: rgb(139, 33, 232);
 }
 
 
@@ -215,6 +240,8 @@ footer {
         align-items: center;
     }
     article {
+        align-items: center;
+        padding-top: 0;
         height: 80vh;
         margin: 0;
     }

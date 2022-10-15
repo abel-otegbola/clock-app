@@ -52,3 +52,11 @@
 .dark article[data-theme="minimalist"] .clock .min:before {
     background-color: #fff;
 }
+
+
+
+
+.dark footer .social li a .fab {
+    border-color: rgba(153, 153, 153, 0.472);
+    color: rgba(153, 153, 153, 0.514);
+}

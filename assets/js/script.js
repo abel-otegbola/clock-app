@@ -45,13 +45,11 @@ for(let i=0; i<colorButtons.length; i++) {
             remove(colorButtons[1], "active")
             localStorage.setItem("colormode", "light")
             remove(document.body, "dark")
-            document.querySelector(".social").style.filter = "invert(0)";
         }
         else {
             remove(colorButtons[0], "active")
             localStorage.setItem("colormode", "dark")
             add(document.body, "dark")
-            document.querySelector(".social").style.filter = "invert(100%)";
         }
         colorButtons[i].classList.add("active")
     })
