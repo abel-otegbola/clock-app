@@ -30,12 +30,12 @@
 
 2. Clone the forked repository.
 ```css
-git clone https://github.com/<your-github-username>/noter-js
+git clone https://github.com/<your-github-username>/clock-app
 ```
   
 3. Navigate to the project directory.
 ```py
-cd noter-js
+cd clock-app
 ```
 
 4. Create a new branch.
@@ -66,7 +66,7 @@ git push -u origin <your_branch_name>
 
 
 
-## Clock app
+## Clock app 🕥🔥
 
  An HTML,CSS and Javascript clock application.
 <hr>
