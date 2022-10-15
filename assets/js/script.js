@@ -38,17 +38,20 @@ const add = (el, option) => {
 let colormode = localStorage.getItem("colormode")
 let colorButtons = document.querySelectorAll("section aside ul.modes li")
 
+
 for(let i=0; i<colorButtons.length; i++) {
     colorButtons[i].addEventListener("click", () => {
         if(i === 0) {
             remove(colorButtons[1], "active")
             localStorage.setItem("colormode", "light")
             remove(document.body, "dark")
+            document.querySelector(".social").style.filter = "invert(0)";
         }
         else {
             remove(colorButtons[0], "active")
             localStorage.setItem("colormode", "dark")
             add(document.body, "dark")
+            document.querySelector(".social").style.filter = "invert(100%)";
         }
         colorButtons[i].classList.add("active")
     })
