@@ -161,3 +161,14 @@ article[data-theme="neon"] .clock .sec:before {
     background-color: rgb(255, 8, 239);
     box-shadow: 3px 3px 6px rgba(188, 4, 255, 0.534);
 }
+
+/* ENDLESS */
+article[data-theme="endless"] .clock {
+    border: 10px solid #231e31;
+    background:  url("../imgs/enless.webp") bottom no-repeat ;
+    background-size: cover;
+}
+article[data-theme="endless"] .clock .hr:before,
+article[data-theme="endless"] .clock .min:before {
+    background-color: rgba(255, 255, 255, 0.981);
+}
