@@ -240,3 +240,32 @@ article[data-theme="doughnut"] .clock .sec:before {
     box-shadow: 3px 3px 6px rgba(188, 4, 255, 0.534);
 }
 
+/*
+    Black'n'White
+*/
+article[data-theme="black-white"] .clock {
+    background: url("../imgs/black-white.jpg") center no-repeat;
+    background-size: cover;
+    box-shadow: inset 5px 5px 10px rgb(0 0 0 / 17%), 5px 5px 20px rgb(0 0 0 / 24%);
+}
+
+article[data-theme="black-white"] .clock::before {
+    background-color: transparent;
+}
+
+article[data-theme="black-white"] .clock::after {
+    content: "Point at me!";
+    position: absolute;
+    color: #666666;
+    bottom: -40px;
+}
+
+article[data-theme="black-white"] .clock .hr::before,
+article[data-theme="black-white"] .clock .min::before,
+article[data-theme="black-white"] .clock .sec::before {
+    background-color: #ffffff;
+}
+
+article[data-theme="black-white"] .clock:hover {
+    filter: invert();
+}
