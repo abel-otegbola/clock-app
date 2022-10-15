@@ -172,3 +172,18 @@ article[data-theme="endless"] .clock .hr:before,
 article[data-theme="endless"] .clock .min:before {
     background-color: rgba(255, 255, 255, 0.981);
 }
+
+/* 
+    Electric
+ */
+
+ article[data-theme="electric"] .clock {
+    border: 10px solid #231e31;
+    background:  url("../imgs/roman-dark.png") left top no-repeat, url("../imgs/electric.gif") right bottom no-repeat ;
+    background-size: cover;
+}
+article[data-theme="electric"] .clock .hr:before,
+article[data-theme="electric"] .clock .min:before {
+    background-color: rgba(255, 255, 255, 0.981);
+    
+}
