@@ -203,3 +203,28 @@ article[data-theme="thor"] .clock .hr:before,
 article[data-theme="thor"] .clock .min:before {
     background-color: rgba(255, 255, 255, 0.981);
 }
+
+/* 
+
+    doughnut 
+
+*/
+article[data-theme="doughnut"] .clock {
+    
+    background:  url("../imgs/doughnut.png") center no-repeat ;
+    background-size:cover;
+    border: 1px solid rgba(0, 0, 0, 0.395);
+}
+
+article[data-theme="doughnut"] .clock .hr:before,
+article[data-theme="doughnut"] .clock .min:before {
+    background-color: #000;
+}
+article[data-theme="doughnut"] .clock:before,
+article[data-theme="doughnut"] .clock .hr:before,
+article[data-theme="doughnut"] .clock .min:before,
+article[data-theme="doughnut"] .clock .sec:before {
+    background-color: rgb(255, 115, 8);
+    box-shadow: 3px 3px 6px rgba(188, 4, 255, 0.534);
+}
+
