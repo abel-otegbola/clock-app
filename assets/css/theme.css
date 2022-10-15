@@ -81,7 +81,7 @@ article[data-theme="vintage"] .clock .min:before {
 
 article[data-theme="futuristic"] .clock {
     border: 10px solid #231e31;
-    background:  url("../imgs/roman-dark.png") left top no-repeat, url("../imgs/HUD.gif") right bottom no-repeat;
+    background:  url("../imgs/roman-dark.png") left top no-repeat, url("../imgs/futuristic.webp") right bottom no-repeat;
     background-size: cover;
 }
 article[data-theme="futuristic"] .clock .hr:before,
@@ -112,7 +112,7 @@ article[data-theme="abstract"] .clock .min:before {
 */
 
 article[data-theme="wooden"] .clock {
-    background:  url("../imgs/roman-gold.png") left top no-repeat, url("../imgs/wood.jpg") right bottom no-repeat;
+    background:  url("../imgs/roman-gold.png") left top no-repeat, url("../imgs/wood.webp") right bottom no-repeat;
     background-size: cover;
     border: 10px solid rgb(74, 37, 12);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.285);
@@ -162,7 +162,13 @@ article[data-theme="neon"] .clock .sec:before {
     box-shadow: 3px 3px 6px rgba(188, 4, 255, 0.534);
 }
 
-/* ENDLESS */
+
+
+
+/* 
+    ENDLESS 
+*/
+
 article[data-theme="endless"] .clock {
     border: 10px solid #231e31;
     background:  url("../imgs/enless.webp") bottom no-repeat ;
@@ -183,7 +189,7 @@ article[data-theme="endless"] .clock .min:before {
 
  article[data-theme="electric"] .clock {
     border: 10px solid #231e31;
-    background:  url("../imgs/roman-dark.png") left top no-repeat, url("../imgs/electric.gif") right bottom no-repeat ;
+    background:  url("../imgs/roman-dark.png") left top no-repeat, url("../imgs/electric.webp") right bottom no-repeat ;
     background-size: cover;
 }
 article[data-theme="electric"] .clock .hr:before,
@@ -192,10 +198,15 @@ article[data-theme="electric"] .clock .min:before {
     
 }
 
-/*THOR*/
+
+
+/*
+    THOR
+*/
+
 article[data-theme="thor"] .clock {
     border: 10px solid #231e31;
-    background:  url("../imgs/mjolnir.jpg") left top no-repeat;
+    background:  url("../imgs/thor.webp") left top no-repeat;
     background-size: cover;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.285);
 }
@@ -204,10 +215,11 @@ article[data-theme="thor"] .clock .min:before {
     background-color: rgba(255, 255, 255, 0.981);
 }
 
+
+
+
 /* 
-
     doughnut 
-
 */
 article[data-theme="doughnut"] .clock {
     
