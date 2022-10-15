@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    display: flex;
+    display: inline;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
@@ -21,7 +21,7 @@ nav h3 {
     color: rgb(139, 33, 232);
 }
 nav .socials {
-    display: flex;
+    display: inline;
     align-items: center;
 }
 nav a {
@@ -35,7 +35,7 @@ nav a i:hover {
     color: rgb(139, 33, 232);
 }
 nav button {
-    display: none;
+    display: flex;
     position: relative;
     padding: 7px 12px;
     margin-left: 15px;
@@ -67,7 +67,7 @@ nav button:before {
 }
 
 section {
-    display: flex;
+    display: inline;
 }
 aside {
     width: 230px;
@@ -107,7 +107,7 @@ aside up li:hover i {
 }
 
 article {
-    display: flex;
+    display: inline;
     align-items: center;
     justify-content: center;
     flex: 1;
@@ -131,7 +131,7 @@ article {
                 inset -5px -5px 10px rgba(255, 255, 255, 0.778),
                 5px 5px 20px rgba(0, 0, 0, 0.237);
     position: relative;
-    display: flex;
+    display: inline;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
@@ -181,7 +181,7 @@ article {
 }
 
 footer {
-    display: flex;
+    display: inline;
     justify-content: center;
     align-items: center;
     background-color: rgb(240, 243, 244);
@@ -211,7 +211,7 @@ footer {
         transition: 0.7s;
     }
     aside ul li {
-        display: flex;
+        display: inline;
         align-items: center;
     }
     article {
