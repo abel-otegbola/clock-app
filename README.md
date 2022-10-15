@@ -10,8 +10,11 @@
 
 ## Features
 - Clean user interface<br>
-- Light and Dark theme<br>
-- Multiple skins for clock<be>
+- Light and Dark mode<br>
+- Multiple clock themes<be>
+
+### Themes
+Neumorphism, Glassmorphism, Vintage, Abstract, Wooden, Futuristic, Minimalist, Neon etc.
 
 visit live site [here](https://abel-otegbola.github.io/clock-app)
 
