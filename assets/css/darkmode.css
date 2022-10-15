@@ -1,6 +1,6 @@
 .dark {
     background-color: #2a2639;
-    transition: 0.7s;
+    transition: 0.5s;
     color: #fff;
 }
 .dark nav,
@@ -9,7 +9,7 @@
 .dark footer {
     background-color: #2c283a;
     color: rgba(255, 255, 255, 0.872);
-    transition: 0.7s;
+    transition: 0.5s;
 }
 .dark nav a,
 .dark nav button {
