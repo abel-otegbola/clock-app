@@ -473,3 +473,23 @@ article[data-theme="pizza"] .clock .sec:before {
 
 
 
+/* Orange */
+
+article[data-theme="orange"] .clock {
+
+    background: url("../imgs/sliced-fresh-orange-background-vector.png") center no-repeat;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.395);
+}
+
+article[data-theme="orange"] .clock .hr:before,
+article[data-theme="orange"] .clock .min:before {
+    background-color: rgb(225, 222, 222);
+}
+
+article[data-theme="orange"] .clock:before,
+article[data-theme="orange"] .clock .hr::before,
+article[data-theme="orange"] .clock .min::before,
+article[data-theme="orange"] .clock .sec::before {
+    background-color: #000000ac;
+}
