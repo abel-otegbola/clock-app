@@ -123,6 +123,10 @@ open the index.html in your browser.
 Check out my awesome [Quiz app](https://github.com/abel-otegbola/quiz-app) built with javascript
   
 ## Contributors
-<a href="https://github.com/abel-otegbola/clock-app/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=abel-otegbola/clock-app" />
-</a>  
+<a href="https://github.com/Abel-otegbola/clock-app/graphs/contributors">
+
+  <img src="https://contrib.rocks/image?repo=Abel-otegbola/clock-app" />
+
+</a>
+
+ 
