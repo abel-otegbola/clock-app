@@ -420,5 +420,30 @@ article[data-theme="3-D"] .clock .min::before {
 }
 
 
+/* Marble */
+
+article[data-theme="marble"] .clock {
+
+    background: url("https://images.unsplash.com/photo-1551554781-c46200ea959d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") center no-repeat;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.395);
+}
+
+article[data-theme="marble"] .clock .hr:before,
+article[data-theme="marble"] .clock .min:before {
+    background-color: #000;
+}
+
+article[data-theme="marble"] .clock:before,
+article[data-theme="marble"] .clock .hr:before,
+article[data-theme="marble"] .clock .min:before,
+article[data-theme="marble"] .clock .sec:before {
+    background-color: rgba(0, 0, 0, 0.76);
+    box-shadow: 3px 3px 6px rgba(61, 59, 61, 0.534);
+
+}
+
+
+
 
 
