@@ -414,16 +414,6 @@ article[data-theme="3-D"] .clock {
         40px 40px 60px rgba(0,0,0,.4);
 }
 
-article[data-theme="3-D"] .clock:before {
-    top: 57.5%;
-    transform: translateX(1px);
-}
-article[data-theme="3-D"] .clock .hr,
-article[data-theme="3-D"] .clock .min,
-article[data-theme="3-D"] .clock .sec {
-    top: 44%;
-    transform: translateX(4px);
-}
 article[data-theme="3-D"] .clock .hr::before,
 article[data-theme="3-D"] .clock .min::before {
     background-color: rgb(0, 0, 0);
