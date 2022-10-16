@@ -111,11 +111,11 @@ article {
     justify-content: center;
     flex: 1;
     padding: 5%;
-    padding-top: 13%;
     margin-left: 10px;
     background-color: rgb(240, 243, 244);
     box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.162);
     transition: 0.7s;
+    position: relative;
 }
 
 .clock {
@@ -129,7 +129,7 @@ article {
                 inset 5px 5px 10px rgba(0, 0, 0, 0.174),
                 inset -5px -5px 10px rgba(255, 255, 255, 0.778),
                 5px 5px 10px rgba(0, 0, 0, 0.188);
-    position: relative;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
