@@ -399,3 +399,36 @@ article[data-theme="alarm"] .clock .hr::before,
 article[data-theme="alarm"] .clock .min::before {
     background-color: rgb(0, 0, 0);
 }
+
+/* 3D
+*/
+
+article[data-theme="3-D"] .clock {
+    background: url("https://images.unsplash.com/photo-1601662528567-526cd06f6582?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3358&q=80") center no-repeat;
+    border: 3vmin solid #000;
+    border-radius: 50%;
+    box-shadow: 
+        inset 40px 40px 90px rgba(0,0,0,.2),
+        inset 10px 10px 30px rgba(0,0,0,.5), 
+        20px 20px 30px rgba(0,0,0,.4),
+        40px 40px 60px rgba(0,0,0,.4);
+}
+
+article[data-theme="3-D"] .clock:before {
+    top: 57.5%;
+    transform: translateX(1px);
+}
+article[data-theme="3-D"] .clock .hr,
+article[data-theme="3-D"] .clock .min,
+article[data-theme="3-D"] .clock .sec {
+    top: 44%;
+    transform: translateX(4px);
+}
+article[data-theme="3-D"] .clock .hr::before,
+article[data-theme="3-D"] .clock .min::before {
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
