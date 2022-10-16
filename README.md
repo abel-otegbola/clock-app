@@ -72,6 +72,14 @@ git push -u origin <your_branch_name>
 <hr>
 <img src="https://raw.githubusercontent.com/abel-otegbola/clock-app/master/screenshots/1.gif" width="100%" />
 
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=aritra-tech/abel-otegbola/clock-app" alt="Number of Visitors">
+  <a href="https://github.com/abel-otegbola/clock-app/stargazers"><img src="https://img.shields.io/github/stars/abel-otegbola/clock-app" alt="Stars Badge" /></a>
+  <a href="https://github.com/abel-otegbola/clock-app/network/members"><img src="https://img.shields.io/github/forks/abel-otegbola/clock-app" alt="Forks Badge" /></a>
+  <a href="https://github.com/abel-otegbola/clock-app/pulls"><img src="https://img.shields.io/github/issues-pr/abel-otegbola/clock-app" alt="Pull Requests Badge" /></a>
+  <a href="https://github.com/abel-otegbola/clock-app/issues"><img src="https://img.shields.io/github/issues/abel-otegbola/clock-app" alt="Issues Badge" /></a>
+  <a href="https://github.com/abel-otegbola/clock-app/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/abel-otegbola/clock-app?color=2b9348"></a>
+</div>
 <hr>
 
 ## Features
