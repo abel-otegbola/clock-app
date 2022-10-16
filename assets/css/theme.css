@@ -160,8 +160,8 @@ article[data-theme="minimalist"] .clock .min:before {
 article[data-theme="neon"] .clock {
     background: url("../imgs/roman-neon.png") left top no-repeat;
     background-size: cover;
-    border: 10px solid rgba(255, 0, 242, 0.395);
-    border-color:rgb(37, 255, 8);
+    border: 10px solid rgba(255, 0, 242, 0.657);
+    border-color:rgb(169, 8, 255);
     filter: hue-rotate(120deg);
     animation: switchColorForFrame 20s linear infinite;
     box-shadow: 5px 5px 50px rgba(188, 4, 255, 0.285);
@@ -230,7 +230,6 @@ article[data-theme="neon"] .clock .sec:before {
     100% {
         border-color: rgb(255, 8, 239);
         filter: hue-rotate(300deg);
-
     }
 }
 
@@ -316,6 +315,8 @@ article[data-theme="doughnut"] .clock .sec:before {
 
 }
 
+
+
 /*
     Black'n'White
 */
@@ -332,7 +333,7 @@ article[data-theme="black-white"] .clock::before {
 article[data-theme="black-white"] .clock::after {
     content: "Point at me!";
     position: absolute;
-    color: #666666;
+    color: #909090;
     bottom: -40px;
 }
 

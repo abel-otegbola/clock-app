@@ -128,7 +128,7 @@ article {
     box-shadow: -5px -5px 20px rgb(255, 255, 255),
                 inset 5px 5px 10px rgba(0, 0, 0, 0.174),
                 inset -5px -5px 10px rgba(255, 255, 255, 0.778),
-                5px 5px 20px rgba(0, 0, 0, 0.237);
+                5px 5px 10px rgba(0, 0, 0, 0.188);
     position: relative;
     display: flex;
     justify-content: center;
