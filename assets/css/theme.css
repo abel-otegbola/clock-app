@@ -349,3 +349,29 @@ article[data-theme="black-white"] .clock:hover {
 
 
 
+/*
+    Alarm
+*/
+article[data-theme="alarm"] .clock {
+    background: url("../imgs/alarm.png") center no-repeat;
+    background-size: cover;
+    height: 350px;
+    overflow: visible;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+article[data-theme="alarm"] .clock:before {
+    top: 57.5%;
+    transform: translateX(1px);
+}
+article[data-theme="alarm"] .clock .hr,
+article[data-theme="alarm"] .clock .min,
+article[data-theme="alarm"] .clock .sec {
+    top: 44%;
+    transform: translateX(4px);
+}
+article[data-theme="alarm"] .clock .hr::before,
+article[data-theme="alarm"] .clock .min::before {
+    background-color: rgb(0, 0, 0);
+}
