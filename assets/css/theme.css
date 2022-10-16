@@ -348,6 +348,30 @@ article[data-theme="black-white"] .clock:hover {
 }
 
 
+/*
+    Cartoon
+*/
+article[data-theme="kids"] .clock {
+    background: url("../imgs/kids.png") center no-repeat;
+    background-size: cover;
+    box-shadow: inset 5px 5px 10px rgb(0 0 0 / 17%), 5px 5px 20px rgb(0 0 0 / 24%);
+}
+
+article[data-theme="black-white"] .clock::before {
+    background-color: transparent;
+}
+
+article[data-theme="black-white"] .clock .hr::before,
+article[data-theme="black-white"] .clock .min::before,
+article[data-theme="black-white"] .clock .sec::before {
+    background-color: #ffffff;
+}
+
+article[data-theme="black-white"] .clock:hover {
+    filter: invert();
+}
+
+
 
 /*
     Alarm
