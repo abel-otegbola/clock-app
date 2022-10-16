@@ -183,6 +183,7 @@ footer {
     background-color: rgb(240, 243, 244);
     padding: 3.2%;
     margin-top: 10px;
+    transition: 0.7s;
 }
 footer p {
     text-align: center;
