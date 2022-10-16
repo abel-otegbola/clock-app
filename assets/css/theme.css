@@ -446,4 +446,30 @@ article[data-theme="marble"] .clock .sec:before {
 
 
 
+/* 
+    Pizza 
+*/
+article[data-theme="pizza"] .clock {
+
+    background: url("../imgs/pizza.png") center no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    border: 1px solid rgba(0, 0, 0, 0.395);
+}
+
+article[data-theme="pizza"] .clock .hr:before,
+article[data-theme="pizza"] .clock .min:before {
+    background-color: rgb(0, 0, 0);
+}
+
+article[data-theme="pizza"] .clock:before,
+article[data-theme="pizza"] .clock .hr:before,
+article[data-theme="pizza"] .clock .min:before,
+article[data-theme="pizza"] .clock .sec:before {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 3px 3px 6px rgba(176, 16, 188, 0.534);
+
+}
+
+
 
