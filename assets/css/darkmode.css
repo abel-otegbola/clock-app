@@ -90,7 +90,7 @@ Quirky
 
 .dark article[data-theme="quirky"] .clock:before,
 .dark article[data-theme="quirky"] .clock .hr::before,
-.dark article[data-theme="quirky"] .clock .min::before,{
+.dark article[data-theme="quirky"] .clock .min::before{
     background-color: #ffffffac;
 }
 
