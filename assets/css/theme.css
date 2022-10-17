@@ -603,3 +603,26 @@ article[data-theme="apple"] .clock .min:after {
     }
     
 }
+
+
+
+/*
+Quirky
+*/
+article[data-theme="quirky"] .clock {
+    background: url("../imgs/quirky.png") center no-repeat;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.395);
+}
+
+article[data-theme="quirky"] .clock .hr:before,
+article[data-theme="quirky"] .clock .min:before {
+    background-color: rgb(225, 222, 222);
+}
+
+article[data-theme="quirky"] .clock:before,
+article[data-theme="quirky"] .clock .hr::before,
+article[data-theme="quirky"] .clock .min::before,
+article[data-theme="quirky"] .clock .sec::before {
+    background-color: #000000ac;
+}
