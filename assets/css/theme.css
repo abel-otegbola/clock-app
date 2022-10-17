@@ -553,6 +553,9 @@ article[data-theme="apple"] .clock .min:after {
     article[data-theme="apple"] .clock .min:before {
         transform: translateY(-13px);
     }
+    article[data-theme="apple"] .clock .sec:before {
+        transform: translateY(-16px);
+    }
     article[data-theme="apple"] .clock .hr:after,
     article[data-theme="apple"] .clock .min:after {
         transform: translateY(19px);
