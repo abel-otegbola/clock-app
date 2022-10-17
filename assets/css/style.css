@@ -253,3 +253,22 @@ footer .social li a .fab:hover {
         transition: 0.7s;
     }
 }
+
+/* -------------------------Ankit Kumar, Oct 17th 2022------------------------- */
+
+.scroll{
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.scroll::-webkit-scrollbar
+{
+    width: 6px;
+    background-color: rgba(0, 0, 0, 0.128);
+}
+
+.scroll::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: rgb(139, 33, 232);;
+}
