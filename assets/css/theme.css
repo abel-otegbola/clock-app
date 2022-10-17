@@ -635,6 +635,7 @@ article[data-theme="quirky"] .clock .sec::before {
 
 article[data-theme="apple2"] .clock {
     background: url("../imgs/apple.png") center no-repeat;
+    background-size: cover;
     border: 3vmin solid #323aa8;
     border-radius: 50%;
     box-shadow:
