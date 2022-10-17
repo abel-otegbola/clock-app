@@ -626,3 +626,24 @@ article[data-theme="quirky"] .clock .min::before,
 article[data-theme="quirky"] .clock .sec::before {
     background-color: #000000ac;
 }
+
+
+/* 
+    Apple 
+*/
+
+article[data-theme="Apple"] .clock {
+    background: url("https://images.app.goo.gl/jkbYLyxDXpbYjMQCA") center no-repeat;
+    border: 3vmin solid #323aa8;
+    border-radius: 50%;
+    box-shadow:
+        inset 40px 40px 90px rgba(0,0,0,.2),
+        inset 10px 10px 30px rgba(0,0,0,.5),
+        20px 20px 30px rgba(0,0,0,.4),
+        40px 40px 60px rgba(0,0,0,.4);
+}
+
+article[data-theme="Apple"] .clock .hr::before,
+article[data-theme="Apple"] .clock .min::before {
+    background-color: rgb(50, 168, 145);
+}
