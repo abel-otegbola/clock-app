@@ -628,6 +628,7 @@ article[data-theme="quirky"] .clock .sec::before {
 }
 
 
+
 /* 
     Apple 
 */
@@ -647,3 +648,17 @@ article[data-theme="Apple"] .clock .hr::before,
 article[data-theme="Apple"] .clock .min::before {
     background-color: rgb(50, 168, 145);
 }
+=======
+/*
+    Bricks
+*/
+article[data-theme="bricks"] .clock {
+    background: url("../imgs/red-bricks.jpg") center no-repeat;
+    background-size: cover;
+}
+article[data-theme="bricks"] .clock .hr:before,
+article[data-theme="bricks"] .clock .min:before,
+article[data-theme="bricks"] .clock .sec:before {
+    background-color: white;
+}
+

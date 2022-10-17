@@ -19,6 +19,7 @@
     2. Writing the author's name and the date modified is a must (Write it as a multiline comment in your code).
     3. Filename should be meaningful.
     4. Don't spam it will be rejected immediately.
+    5. Only send one pull request for your contributions to the project. 
 
 ---
 
