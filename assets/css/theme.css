@@ -576,31 +576,5 @@ article[data-theme="apple"] .clock .min:after {
     height: 9px;
     transform: translateY(29px);
 }
-@media (max-width: 700px) {
-    article[data-theme="apple"] .clock {
-        width: 250px;
-        height: 250px;
-    }
-    article[data-theme="apple"] .clock .hr,
-    article[data-theme="apple"] .clock .min,
-    article[data-theme="apple"] .clock .sec {
-        height: 50px;
-    }
-    article[data-theme="apple"] .clock .hr:before,
-    article[data-theme="apple"] .clock .min:before {
-        width: 2px;
-        transform: translateY(-3px);
-    }
-    article[data-theme="apple"] .clock .min:before {
-        transform: translateY(-13px);
-    }
-    article[data-theme="apple"] .clock .sec:before {
-        transform: translateY(-16px);
-    }
-    article[data-theme="apple"] .clock .hr:after,
-    article[data-theme="apple"] .clock .min:after {
-        transform: translateY(19px);
-        height: 5px;
-    }
-}
+
 
