@@ -257,7 +257,7 @@ footer .social li a .fab:hover {
 /* -------------------------Ankit Kumar, Oct 17th 2022------------------------- */
 
 .scroll{
-    height: 70vh;
+    height: 100%;
     overflow-y: scroll;
 }
 
