@@ -642,7 +642,7 @@ article[data-theme="Christmas"] .clock {
         40px 40px 60px rgba(0,0,0,.4);
 }
 
-article[data-theme="3-D"] .clock .hr::before,
-article[data-theme="3-D"] .clock .min::before {
+article[data-theme="Christmas"] .clock .hr::before,
+article[data-theme="Christmas"] .clock .min::before {
     background-color: #f5ec42;
 }
