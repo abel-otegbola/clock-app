@@ -67,13 +67,8 @@
     border-color: rgba(153, 153, 153, 0.82);
     color: rgba(153, 153, 153, 0.813);
 }
-
-
-
 .dark article[data-theme="apple"] .clock {
     background: url("../imgs/apple-dark.png") left top no-repeat;
     background-size: cover;
-    box-shadow: none;
-    width: 400px;
-    height: 400px;
+    background-position-x: 50%;
 }
