@@ -400,7 +400,9 @@ article[data-theme="alarm"] .clock .min::before {
     background-color: rgb(0, 0, 0);
 }
 
-/* 3D
+
+/* 
+    3D
 */
 
 article[data-theme="3-D"] .clock {
@@ -423,7 +425,6 @@ article[data-theme="3-D"] .clock .min::before {
 /* Marble */
 
 article[data-theme="marble"] .clock {
-
     background: url("https://images.unsplash.com/photo-1551554781-c46200ea959d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") center no-repeat;
     background-size: cover;
     border: 1px solid rgba(0, 0, 0, 0.395);
@@ -440,7 +441,6 @@ article[data-theme="marble"] .clock .min:before,
 article[data-theme="marble"] .clock .sec:before {
     background-color: rgba(0, 0, 0, 0.76);
     box-shadow: 3px 3px 6px rgba(61, 59, 61, 0.534);
-
 }
 
 
@@ -450,7 +450,6 @@ article[data-theme="marble"] .clock .sec:before {
     Pizza
 */
 article[data-theme="pizza"] .clock {
-
     background: url("../imgs/pizza.png") center no-repeat;
     background-size: cover;
     opacity: 0.9;
@@ -468,7 +467,6 @@ article[data-theme="pizza"] .clock .min:before,
 article[data-theme="pizza"] .clock .sec:before {
     background-color: rgb(0, 0, 0);
     box-shadow: 3px 3px 6px rgba(176, 16, 188, 0.534);
-
 }
 
 
@@ -476,7 +474,6 @@ article[data-theme="pizza"] .clock .sec:before {
 /* Orange */
 
 article[data-theme="orange"] .clock {
-
     background: url("../imgs/sliced-fresh-orange-background-vector.png") center no-repeat;
     background-size: cover;
     border: 1px solid rgba(0, 0, 0, 0.395);
@@ -495,7 +492,8 @@ article[data-theme="orange"] .clock .sec::before {
 }
 
 
-/* Rainbow */
+
+/* Rainbow *
 
 article[data-theme="rainbow"] .clock {
     background: linear-gradient(
@@ -531,5 +529,78 @@ article[data-theme="rainbow"] .clock::after {
 
 @keyframes a {
     to { background-position: 0 -3200%; }
+}
+
+=======
+/*
+    Apple wristwatch
+*/
+
+article[data-theme="apple"] .clock {
+    border: none;
+    background: url("../imgs/apple-light.png") left top no-repeat;
+    background-size: cover;
+    box-shadow: none;
+    width: 400px;
+    height: 400px;
+}
+
+article[data-theme="apple"] .clock::before {
+    display: none;
+}
+article[data-theme="apple"] .clock .hr,
+article[data-theme="apple"] .clock .min,
+article[data-theme="apple"] .clock .sec {
+    width: 1px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+article[data-theme="apple"] .clock .hr:before,
+article[data-theme="apple"] .clock .min:before {
+    background-color: #000;
+    width: 3px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transform: translateY(-5px);
+}
+article[data-theme="apple"] .clock .min:before {
+    transform: translateY(-20px);
+}
+article[data-theme="apple"] .clock .hr:after,
+article[data-theme="apple"] .clock .min:after {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    width: 1px;
+    height: 9px;
+    transform: translateY(29px);
+}
+@media (max-width: 700px) {
+    article[data-theme="apple"] .clock {
+        width: 250px;
+        height: 250px;
+    }
+    article[data-theme="apple"] .clock .hr,
+    article[data-theme="apple"] .clock .min,
+    article[data-theme="apple"] .clock .sec {
+        height: 50px;
+    }
+    article[data-theme="apple"] .clock .hr:before,
+    article[data-theme="apple"] .clock .min:before {
+        width: 2px;
+        transform: translateY(-3px);
+    }
+    article[data-theme="apple"] .clock .min:before {
+        transform: translateY(-13px);
+    }
+    article[data-theme="apple"] .clock .sec:before {
+        transform: translateY(-16px);
+    }
+    article[data-theme="apple"] .clock .hr:after,
+    article[data-theme="apple"] .clock .min:after {
+        transform: translateY(19px);
+        height: 5px;
+    }
 }
 

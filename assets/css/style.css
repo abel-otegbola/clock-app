@@ -165,11 +165,6 @@ article {
     border-radius: 40% 40% 0 0;
 }
 
-.clock .sec::before {
-    height: 85%;
-    transform: translateY(-25px);
-    background-color: red;
-}
 .clock .hr::before {
     height: 40%;
     transform: translateY(10px);
@@ -177,6 +172,11 @@ article {
 .clock .min::before {
     height: 60%;
     transform: translateY(-10px);
+}
+.clock .sec::before {
+    height: 85%;
+    transform: translateY(-25px);
+    background-color: red;
 }
 
 footer {
