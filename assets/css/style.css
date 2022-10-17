@@ -131,6 +131,7 @@ article {
                 5px 5px 10px rgba(0, 0, 0, 0.188);
     position: relative;
     display: flex;
+    margin:auto;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
@@ -138,7 +139,7 @@ article {
 
 .clock:before {
     content: "";
-    position: absolute;
+    position: relative;
     width: 7px;
     height: 7px;
     border-radius: 50%;
@@ -161,7 +162,8 @@ article {
     width: 100%;
     height: 50%;
     background-color: #000;
-    transition: 1s;
+    transition: 2s;
+    
     border-radius: 40% 40% 0 0;
 }
 
