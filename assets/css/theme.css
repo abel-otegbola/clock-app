@@ -150,9 +150,6 @@ article[data-theme="minimalist"] .clock .min:before {
     background-color: #000;
 }
 
-
-
-
 /*
     Neon
 */
@@ -249,11 +246,6 @@ article[data-theme="endless"] .clock .hr:before,
 article[data-theme="endless"] .clock .min:before {
     background-color: rgba(255, 255, 255, 0.981);
 }
-
-
-
-
-
 /*
     Electric
  */
@@ -371,8 +363,6 @@ article[data-theme="black-white"] .clock:hover {
     filter: invert();
 }
 
-
-
 /*
     Alarm
 */
@@ -380,7 +370,7 @@ article[data-theme="alarm"] .clock {
     background: url("../imgs/alarm.png") center no-repeat;
     background-size: cover;
     height: 350px;
-    overflow: visible;
+    overflow: auto;
     border-radius: 0;
     box-shadow: none;
 }
@@ -399,7 +389,6 @@ article[data-theme="alarm"] .clock .hr::before,
 article[data-theme="alarm"] .clock .min::before {
     background-color: rgb(0, 0, 0);
 }
-
 
 /* 
     3D
@@ -537,12 +526,13 @@ article[data-theme="rainbow"] .clock::after {
 */
 
 article[data-theme="apple"] .clock {
-    border: none;
+    border: 2px green;
     background: url("../imgs/apple-light.png") left top no-repeat;
     background-size: cover;
     box-shadow: none;
     width: 400px;
     height: 400px;
+    margin:auto;
 }
 
 article[data-theme="apple"] .clock::before {
@@ -603,8 +593,6 @@ article[data-theme="apple"] .clock .min:after {
     }
     
 }
-
-
 
 /*
 Quirky
