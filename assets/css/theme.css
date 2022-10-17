@@ -633,7 +633,7 @@ article[data-theme="quirky"] .clock .sec::before {
     Apple 
 */
 
-article[data-theme="Apple"] .clock {
+article[data-theme="apple2"] .clock {
     background: url("https://images.app.goo.gl/jkbYLyxDXpbYjMQCA") center no-repeat;
     border: 3vmin solid #323aa8;
     border-radius: 50%;
@@ -644,11 +644,12 @@ article[data-theme="Apple"] .clock {
         40px 40px 60px rgba(0,0,0,.4);
 }
 
-article[data-theme="Apple"] .clock .hr::before,
-article[data-theme="Apple"] .clock .min::before {
+article[data-theme="apple2"] .clock .hr::before,
+article[data-theme="apple2"] .clock .min::before {
     background-color: rgb(50, 168, 145);
 }
-=======
+
+
 /*
     Bricks
 */
