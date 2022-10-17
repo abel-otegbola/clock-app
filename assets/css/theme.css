@@ -493,7 +493,7 @@ article[data-theme="orange"] .clock .sec::before {
 
 
 
-/* Rainbow *
+/* Rainbow */
 
 article[data-theme="rainbow"] .clock {
     background: linear-gradient(
@@ -531,7 +531,7 @@ article[data-theme="rainbow"] .clock::after {
     to { background-position: 0 -3200%; }
 }
 
-=======
+
 /*
     Apple wristwatch
 */
