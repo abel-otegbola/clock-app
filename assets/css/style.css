@@ -17,13 +17,21 @@ nav {
     box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.077);
     transition: 0.7s;
 }
+
 nav h3 {
     color: rgb(139, 33, 232);
 }
+
+.logo img {
+    padding: 10px;
+    height: 40px;
+}
+
 nav .socials {
     display: flex;
     align-items: center;
 }
+
 nav a {
     padding: 7px 8px;
     margin-left: 15px;
@@ -31,9 +39,11 @@ nav a {
     color: #000;
     background-color: rgba(0, 0, 0, 0.036);
 }
+
 nav a i:hover {
     color: rgb(139, 33, 232);
 }
+
 nav button {
     display: none;
     position: relative;
@@ -43,6 +53,7 @@ nav button {
     border: 1px solid rgba(153, 153, 153, 0.611);
     border-radius: 3px;
 }
+
 nav button:before {
     content: "";
     position: absolute;
@@ -55,6 +66,7 @@ nav button:before {
     border: 2px solid rgb(139, 33, 232);
     animation: 1s call linear infinite;
 }
+
 @keyframes call {
     from {
         transform: scale(1, 1);
@@ -69,6 +81,7 @@ nav button:before {
 section {
     display: flex;
 }
+
 aside {
     width: 250px;
     padding: 0 0 20px 0;
@@ -77,25 +90,30 @@ aside {
     box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.162);
     transition: 0.7s;
 }
+
 aside p {
     margin: 30px 0 10px 18px;
     font-weight: 700;
     font-size: large;
     color: rgb(219, 47, 4);
 }
+
 aside ul {
     margin: 0;
     padding: 0;
 }
+
 aside ul.modes {
     margin: 0 15px;
 }
+
 aside ul li {
     list-style-type: none;
     padding: 16px;
     margin: 3px 0;
     cursor: pointer;
 }
+
 aside ul.modes li {
     width: 48%;
     display: flex;
@@ -103,9 +121,11 @@ aside ul.modes li {
     margin: 0;
     justify-content: center;
 }
+
 aside ul.modes li:nth-child(1) {
     margin-right: 3px;
 }
+
 aside ul li:hover,
 aside ul li.active {
     background-color: rgba(0, 0, 0, 0.128);
@@ -118,6 +138,7 @@ aside ul li i {
     margin-right: 10px;
     min-width: 20px;
 }
+
 aside up li:hover i {
     color: rgb(151, 58, 232);
 }
@@ -142,10 +163,7 @@ article {
     background-size: cover;
     border-radius: 50%;
     border: 10px solid rgb(240, 243, 244);
-    box-shadow: -5px -5px 20px rgb(255, 255, 255),
-                inset 5px 5px 10px rgba(0, 0, 0, 0.174),
-                inset -5px -5px 10px rgba(255, 255, 255, 0.778),
-                5px 5px 10px rgba(0, 0, 0, 0.188);
+    box-shadow: -5px -5px 20px rgb(255, 255, 255), inset 5px 5px 10px rgba(0, 0, 0, 0.174), inset -5px -5px 10px rgba(255, 255, 255, 0.778), 5px 5px 10px rgba(0, 0, 0, 0.188);
     position: relative;
     display: flex;
     justify-content: center;
@@ -170,6 +188,7 @@ article {
     width: 2px;
     height: 100px;
 }
+
 .clock .hr::before,
 .clock .min::before,
 .clock .sec::before {
@@ -186,10 +205,12 @@ article {
     height: 40%;
     transform: translateY(10px);
 }
+
 .clock .min::before {
     height: 60%;
     transform: translateY(-10px);
 }
+
 .clock .sec::before {
     height: 85%;
     transform: translateY(-25px);
@@ -209,36 +230,41 @@ footer {
     margin-top: 10px;
     transition: 0.7s;
 }
+
 footer p {
     text-align: center;
 }
-footer .social{    
+
+footer .social {
     display: flex;
     justify-content: center;
-    padding: 0;    
+    padding: 0;
     margin: 0;
-} 
-footer .social li{
+}
+
+footer .social li {
     list-style: none;
 }
-footer .social li a{
+
+footer .social li a {
     text-decoration: none;
     margin: 0 10px;
     border-radius: 50%;
     transition: 0.7s;
 }
-footer .social li a .fab{
+
+footer .social li a .fab {
     border-radius: 50%;
     padding: 10px;
     border: 1px solid rgba(5, 5, 5, 0.751);
     color: rgba(0, 0, 0, 0.703);
     transition: 0.7s;
 }
+
 footer .social li a .fab:hover {
     border-color: rgb(139, 33, 232);
     color: rgb(139, 33, 232);
 }
-
 
 @media (max-width: 600px) {
     nav button {
@@ -271,6 +297,7 @@ footer .social li a .fab:hover {
         margin: 0;
     }
 }
+
 @media (max-width: 350px) {
     aside.active {
         width: 100%;
@@ -278,34 +305,36 @@ footer .social li a .fab:hover {
     }
 }
 
+
 /* -------------------------Ankit Kumar, Oct 17th 2022------------------------- */
 
-.scroll{
+.scroll {
     height: 500px;
     overflow-y: scroll;
 }
 
-.scroll::-webkit-scrollbar
-{
+.scroll::-webkit-scrollbar {
     width: 6px;
     background-color: rgba(0, 0, 0, 0.128);
 }
 
-.scroll::-webkit-scrollbar-thumb
-{
+.scroll::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: rgb(139, 33, 232);;
+    background-color: rgb(139, 33, 232);
+    ;
 }
 
 
 /* ------------------------- Ritika , 18-10-22 ------------------------- */
-.modes{
+
+.modes {
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px;
     padding: 3px;
     border: .2px solid rgba(0, 0, 0, 0.128);
 }
+
 aside ul.modes li:hover,
 aside ul.modes li.active {
     border: none;
