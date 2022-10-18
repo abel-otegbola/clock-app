@@ -97,3 +97,16 @@ Quirky
 .dark article[data-theme="quirky"] .clock .sec::before{
     background-color: rgb(255, 82, 82);
 }
+
+/*creative clock*/
+.dark article[data-theme="Creative"] .clock {
+    background: url("../imgs/creative-light.png") center no-repeat;
+    background-size: cover;
+    box-shadow: none;
+}
+
+.dark article[data-theme="Creative"] .clock .hr:before,
+.dark article[data-theme="Creative"] .clock .min:before,
+.dark article[data-theme="Creative"] .clock .sec:before {
+    background-color: rgb(0, 0, 0);
+}
