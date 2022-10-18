@@ -1,112 +1,114 @@
 .dark {
-    background-color: #2a2639;
-    transition: 0.7s;
-    color: #fff;
+	background-color: #2a2639;
+	transition: 0.7s;
+	color: #fff;
 }
 .dark nav,
 .dark section aside,
 .dark section article,
 .dark footer {
-    background-color: #2c283a;
-    color: rgba(255, 255, 255, 0.872);
-    transition: 0.7s;
+	background-color: #2c283a;
+	color: rgba(255, 255, 255, 0.872);
+	transition: 0.7s;
 }
 .dark nav a,
 .dark nav button {
-    color: rgba(255, 255, 255, 0.881);
+	color: rgba(255, 255, 255, 0.881);
 }
 
 .dark .clock {
-    background:#2c283a url("../imgs/roman-dark.png") no-repeat right top;
-    background-size: cover;
-    border: 10px solid #2c283a;
-    box-shadow: -5px -5px 10px rgba(184, 170, 192, 0.21),
-                inset 5px 5px 10px rgba(0, 0, 0, 0.443),
-                inset -5px -5px 10px rgba(114, 92, 125, 0.339),
-                2px 2px 4px rgba(0, 0, 0, 0.433);
+	background: #2c283a url("../imgs/roman-dark.png") no-repeat right top;
+	background-size: cover;
+	border: 10px solid #2c283a;
+	box-shadow: -5px -5px 10px rgba(184, 170, 192, 0.21),
+		inset 5px 5px 10px rgba(0, 0, 0, 0.443),
+		inset -5px -5px 10px rgba(114, 92, 125, 0.339),
+		2px 2px 4px rgba(0, 0, 0, 0.433);
 }
 .dark .hr:before,
 .dark .min:before {
-    background-color: rgba(255, 255, 255, 0.828);
+	background-color: rgba(255, 255, 255, 0.828);
 }
-
 
 /*
     Glassmorphism dark
 */
 .dark article[data-theme="glassmorphism"] .clock {
-    background:#2c283abe url("../imgs/roman-dark.png") no-repeat right top;
-    background-size: cover;
-    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.339);
+	background: #2c283abe url("../imgs/roman-dark.png") no-repeat right top;
+	background-size: cover;
+	box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.339);
 }
-
 
 /*
     Minimalist dark
 */
 .dark article[data-theme="minimalist"] .clock {
-    background:  #2f2944;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.16);
+	background: #2f2944;
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.16);
 }
 .dark article[data-theme="minimalist"] .clock .hr:before,
 .dark article[data-theme="minimalist"] .clock .min:before {
-    background-color: #fff;
+	background-color: #fff;
 }
-
-
 
 /*
     Alarm dark
 */
 .dark article[data-theme="alarm"] .clock .hr::before,
 .dark article[data-theme="alarm"] .clock .min::before {
-    background-color: rgba(255, 255, 255, 0.872);
+	background-color: rgba(255, 255, 255, 0.872);
 }
 
-.dark footer .social li a .fab {
-    border-color: rgba(153, 153, 153, 0.82);
-    color: rgba(153, 153, 153, 0.813);
+.dark #social-container {
+	background-color: #2a2639;
+}
+.dark .social li a .fab {
+	border-color: rgba(153, 153, 153, 0.82);
+	color: rgba(153, 153, 153, 0.813);
+}
+.dark .social li a .fab:hover {
+	border-color: rgb(139, 33, 232);
+	color: rgb(139, 33, 232);
 }
 .dark article[data-theme="apple"] .clock {
-    background: url("../imgs/apple-dark.png") left top no-repeat;
-    background-size: cover;
-    background-position-x: 50%;
+	background: url("../imgs/apple-dark.png") left top no-repeat;
+	background-size: cover;
+	background-position-x: 50%;
 }
-
 
 /*
 Quirky
 */
 .dark article[data-theme="quirky"] .clock {
-    background: url("../imgs/qzuirky-dark.png") center no-repeat;
-    background-size: cover;
-    border: 1px solid rgba(192, 192, 192, 0.395);
+	background: url("../imgs/qzuirky-dark.png") center no-repeat;
+	background-size: cover;
+	border: 1px solid rgba(192, 192, 192, 0.395);
 }
 
 .dark article[data-theme="quirky"] .clock .hr:before,
 .dark article[data-theme="quirky"] .clock .min:before {
-    background-color: rgb(225, 222, 222);
+	background-color: rgb(225, 222, 222);
 }
 
 .dark article[data-theme="quirky"] .clock:before,
 .dark article[data-theme="quirky"] .clock .hr::before,
-.dark article[data-theme="quirky"] .clock .min::before{
-    background-color: #ffffffac;
+.dark article[data-theme="quirky"] .clock .min::before {
+	background-color: #ffffffac;
 }
 
-.dark article[data-theme="quirky"] .clock .sec::before{
-    background-color: rgb(255, 82, 82);
+.dark article[data-theme="quirky"] .clock .sec::before {
+	background-color: rgb(255, 82, 82);
 }
 
 /*creative clock*/
 .dark article[data-theme="Creative"] .clock {
-    background: url("../imgs/creative-light.png") center no-repeat;
-    background-size: cover;
-    box-shadow: none;
+	background: url("../imgs/creative-light.png") center no-repeat;
+	background-size: cover;
+	box-shadow: none;
 }
 
 .dark article[data-theme="Creative"] .clock .hr:before,
 .dark article[data-theme="Creative"] .clock .min:before,
 .dark article[data-theme="Creative"] .clock .sec:before {
-    background-color: rgb(0, 0, 0);
+	background-color: rgb(0, 0, 0);
 }

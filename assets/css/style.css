@@ -1,275 +1,304 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    transition: 0.7s;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	transition: 0.7s;
+	min-width: 320px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    padding: 5px 3.2%;
-    margin-bottom: 10px;
-    box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.077);
-    transition: 0.7s;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	padding: 5px 3.2%;
+	margin-bottom: 10px;
+	box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.077);
+	transition: 0.7s;
 }
 nav h3 {
-    color: rgb(139, 33, 232);
+	color: rgb(139, 33, 232);
 }
 nav .socials {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 nav a {
-    padding: 7px 8px;
-    margin-left: 15px;
-    border-radius: 20px;
-    color: #000;
-    background-color: rgba(0, 0, 0, 0.036);
+	padding: 7px 8px;
+	margin-left: 15px;
+	border-radius: 20px;
+	color: #000;
+	background-color: rgba(0, 0, 0, 0.036);
 }
 nav a i:hover {
-    color: rgb(139, 33, 232);
+	color: rgb(139, 33, 232);
 }
 nav button {
-    display: none;
-    position: relative;
-    padding: 7px 12px;
-    margin-left: 15px;
-    background-color: transparent;
-    border: 1px solid rgba(153, 153, 153, 0.611);
-    border-radius: 3px;
+	display: none;
+	position: relative;
+	padding: 7px 12px;
+	margin-left: 15px;
+	background-color: transparent;
+	border: 1px solid rgba(153, 153, 153, 0.611);
+	border-radius: 3px;
 }
 nav button:before {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    width: 100%;
-    height: 100%;
-    border-radius: 3px;
-    background-color: transparent;
-    border: 2px solid rgb(139, 33, 232);
-    animation: 1s call linear infinite;
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+	background-color: transparent;
+	border: 2px solid rgb(139, 33, 232);
+	animation: 1s call linear infinite;
 }
 @keyframes call {
-    from {
-        transform: scale(1, 1);
-        opacity: 0.5;
-    }
-    to {
-        transform: scale(1.5, 1.5);
-        opacity: 0;
-    }
+	from {
+		transform: scale(1, 1);
+		opacity: 0.5;
+	}
+	to {
+		transform: scale(1.5, 1.5);
+		opacity: 0;
+	}
 }
 
 section {
-    display: flex;
+	display: flex;
 }
 aside {
-    width: 230px;
-    padding: 0 0 20px 0;
-    margin-left: 10px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.162);
-    transition: 0.7s;
+	width: 230px;
+	padding: 0 0 20px 0;
+	margin-left: 10px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.162);
+	transition: 0.7s;
 }
 aside p {
-    margin: 30px 0 10px 40px;
-    font-weight: 500;
-    color: rgb(219, 47, 4);
+	margin: 30px 0 10px 40px;
+	font-weight: 500;
+	color: rgb(219, 47, 4);
 }
 aside ul {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 aside ul li {
-    list-style-type: none;
-    padding: 16px;
-    margin: 3px 0;
-    cursor: pointer;
+	list-style-type: none;
+	padding: 16px;
+	margin: 3px 0;
+	cursor: pointer;
 }
 aside ul li:hover,
 aside ul li.active {
-    background-color: rgba(0, 0, 0, 0.128);
-    color: rgb(139, 33, 232);
-    border-right: 1px solid rgb(139, 33, 232);
-    transition: 0.5s;
+	background-color: rgba(0, 0, 0, 0.128);
+	color: rgb(139, 33, 232);
+	border-right: 1px solid rgb(139, 33, 232);
+	transition: 0.5s;
 }
 aside ul li i {
-    margin-right: 10px;
+	margin-right: 10px;
 }
 aside up li:hover i {
-    color: rgb(151, 58, 232);
+	color: rgb(151, 58, 232);
 }
 
 article {
-    display: flex;
-    justify-content: center;
-    flex: 1;
-    padding: 5%;
-    padding-top: 13%;
-    margin-left: 10px;
-    background-color: rgb(240, 243, 244);
-    box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.162);
-    transition: 0.7s;
+	display: flex;
+	justify-content: center;
+	flex: 1;
+	padding: 5%;
+	padding-top: 13%;
+	margin-left: 10px;
+	background-color: rgb(240, 243, 244);
+	box-shadow: 2px 5px 10px rgba(37, 37, 37, 0.162);
+	transition: 0.7s;
+}
+
+#clock-container {
+	padding-top: 0;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
 }
 
 .clock {
-    width: 250px;
-    height: 250px;
-    background: rgb(240, 243, 244) url("../imgs/roman.png") no-repeat right top;
-    background-size: cover;
-    border-radius: 50%;
-    border: 10px solid rgb(240, 243, 244);
-    box-shadow: -5px -5px 20px rgb(255, 255, 255),
-                inset 5px 5px 10px rgba(0, 0, 0, 0.174),
-                inset -5px -5px 10px rgba(255, 255, 255, 0.778),
-                5px 5px 10px rgba(0, 0, 0, 0.188);
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
+	width: 250px;
+	height: 250px;
+	background: rgb(240, 243, 244) url("../imgs/roman.png") no-repeat right top;
+	background-size: cover;
+	border-radius: 50%;
+	border: 10px solid rgb(240, 243, 244);
+	box-shadow: -5px -5px 20px rgb(255, 255, 255),
+		inset 5px 5px 10px rgba(0, 0, 0, 0.174),
+		inset -5px -5px 10px rgba(255, 255, 255, 0.778),
+		5px 5px 10px rgba(0, 0, 0, 0.188);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.5s;
 }
 
 .clock:before {
-    content: "";
-    position: absolute;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background-color: rgb(214, 61, 18);
-    z-index: 2;
+	content: "";
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: rgb(214, 61, 18);
+	z-index: 2;
 }
 
 .clock .hr,
 .clock .min,
 .clock .sec {
-    position: absolute;
-    width: 2px;
-    height: 100px;
+	position: absolute;
+	width: 2px;
+	height: 100px;
 }
 .clock .hr::before,
 .clock .min::before,
 .clock .sec::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    background-color: #000;
-    transition: 1s;
-    border-radius: 40% 40% 0 0;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	background-color: #000;
+	transition: 1s;
+	border-radius: 40% 40% 0 0;
 }
 
 .clock .hr::before {
-    height: 40%;
-    transform: translateY(10px);
+	height: 40%;
+	transform: translateY(10px);
 }
 .clock .min::before {
-    height: 60%;
-    transform: translateY(-10px);
+	height: 60%;
+	transform: translateY(-10px);
 }
 .clock .sec::before {
-    height: 85%;
-    transform: translateY(-25px);
-    background-color: red;
+	height: 85%;
+	transform: translateY(-25px);
+	background-color: red;
 }
 
-footer {
-    background-color: rgb(240, 243, 244);
-    padding: 3.2%;
-    margin-top: 10px;
-    transition: 0.7s;
+.social {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
 }
-footer p {
-    text-align: center;
+.social li {
+	list-style: none;
+	margin: 0;
+	padding: 8px;
 }
-footer .social{    
-    display: flex;
-    justify-content: center;
-    padding: 0;    
-    margin: 0;
-} 
-footer .social li{
-    list-style: none;
+.social li a {
+	text-decoration: none;
+	/* margin: 0 10px; */
+	border-radius: 50%;
+	transition: 0.7s;
 }
-footer .social li a{
-    text-decoration: none;
-    margin: 0 10px;
-    border-radius: 50%;
-    transition: 0.7s;
+.social li a .fab {
+	border-radius: 50%;
+	padding: 10px;
+	border: 1px solid rgba(5, 5, 5, 0.751);
+	color: rgba(0, 0, 0, 0.703);
+	transition: 0.7s;
 }
-footer .social li a .fab{
-    border-radius: 50%;
-    padding: 10px;
-    border: 1px solid rgba(5, 5, 5, 0.751);
-    color: rgba(0, 0, 0, 0.703);
-    transition: 0.7s;
-}
-footer .social li a .fab:hover {
-    border-color: rgb(139, 33, 232);
-    color: rgb(139, 33, 232);
+.social li a .fab:hover {
+	border-color: rgb(139, 33, 232);
+	color: rgb(139, 33, 232);
 }
 
-
+#social-container {
+	height: fit-content;
+	background-color: rgb(240, 243, 244);
+	position: absolute;
+	right: 3px;
+	width: fit-content;
+	top: 50%;
+	transform: translate(0, -50%);
+	padding: 16px;
+}
+#copyright {
+	position: absolute;
+	bottom: 0;
+}
 @media (max-width: 500px) {
-    nav button {
-        display: block;
-        position: relative;
-        z-index: 10000;
-    }
-    aside {
-        position: fixed;
-        width: 0;
-        overflow-x: hidden;
-        height: 100%;
-        right: 0;
-        top: 0;
-        box-shadow: -10px 0 20px rgba(0, 0, 0, 0.096);
-        z-index: 1000;
-    }
-    aside.active {
-        width: 75%;
-        transition: 0.7s;
-    }
-    aside ul li {
-        display: flex;
-        align-items: center;
-    }
-    article {
-        align-items: center;
-        padding-top: 0;
-        height: 80vh;
-        margin: 0;
-    }
+	nav button {
+		display: block;
+		position: relative;
+		z-index: 10000;
+	}
+	aside {
+		position: fixed;
+		width: 0;
+		overflow-x: hidden;
+		height: 100%;
+		right: 0;
+		top: 0;
+		box-shadow: -10px 0 20px rgba(0, 0, 0, 0.096);
+		z-index: 1000;
+	}
+	aside.active {
+		width: 75%;
+		transition: 0.7s;
+	}
+	aside ul li {
+		display: flex;
+		align-items: center;
+	}
+	article {
+		align-items: center;
+		padding-top: 0;
+		height: 80vh;
+		margin: 0;
+	}
+	#social-container {
+		left: 50%;
+		bottom: 0;
+		top: initial;
+		transform: translate(-50%, 0);
+		padding: 0 16px;
+	}
+	.social {
+		flex-direction: row;
+	}
+	.social li a.fab {
+		margin: 0;
+	}
+	.social li:hover {
+		border-right: 0;
+		transition: 0.5s;
+	}
 }
 @media (max-width: 350px) {
-    aside.active {
-        width: 100%;
-        transition: 0.7s;
-    }
+	aside.active {
+		width: 100%;
+		transition: 0.7s;
+	}
 }
 
 /* -------------------------Ankit Kumar, Oct 17th 2022------------------------- */
 
-.scroll{
-    height: 500px;
-    overflow-y: scroll;
+.scroll {
+	height: 500px;
+	overflow-y: scroll;
 }
 
-.scroll::-webkit-scrollbar
-{
-    width: 6px;
-    background-color: rgba(0, 0, 0, 0.128);
+.scroll::-webkit-scrollbar {
+	width: 6px;
+	background-color: rgba(0, 0, 0, 0.128);
 }
 
-.scroll::-webkit-scrollbar-thumb
-{
-    border-radius: 10px;
-    background-color: rgb(139, 33, 232);;
+.scroll::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: rgb(139, 33, 232);
 }
-
