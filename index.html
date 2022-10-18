@@ -9,9 +9,8 @@
     <meta name="keywords" content="clock application, javascript clock, js clock">
     <meta name="author" content="Abel Otegbola">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/theme.css">
     <link rel="stylesheet" href="assets/css/darkmode.css">
@@ -25,7 +24,10 @@
 <body>
     <header>
         <nav>
-            <h3>CLOCK APP</h3>
+            <div class="logo">
+                <i class=""></i><img src="/assets/imgs/logo.png">
+            </div>
+            <!-- <h3>CLOCK APP</h3> -->
             <div class="socials">
                 <a href="https://github.com/abel-otegbola/clock-app"><i class="fab fa-github"></i></a>
                 <a href="https://twitter.com/Abel_Otegbola"><i class="fab fa-twitter"></i></a>
@@ -37,18 +39,18 @@
 
 
     <section>
-        <aside> 
+        <aside>
 
             <p>Modes</p>
             <ul class="modes">
                 <li class="active"><i class="fas fa-sun"></i> Light</li>
                 <li><i class="fas fa-moon"></i> Dark</li>
             </ul>
-            
+
             <ul class="themes">
                 <p>Themes</p>
                 <div class="scroll">
-                
+
                     <li class="active" data-theme="neumorphism"><i class="fas fa-pen-nib"></i> Neumorphism</li>
                     <li data-theme="glassmorphism"><i class="fas fa-window-restore"></i> Glassmorphism</li>
                     <li data-theme="vintage"><i class="fas fa-history"></i> Vintage</li>
@@ -89,7 +91,7 @@
     </section>
 
     <footer>
-        <ul class ="social" id="sc">
+        <ul class="social" id="sc">
             <li><a href="https://github.com/abel-otegbola/clock-app"><i class ="fab fa-github"></i></a></li>
             <li><a href="https://twitter.com/Abel_Otegbola"><i class ="fab fa-twitter"></i></a></li>
             <li><a href="mailto:abel15655@gmail.com"><i class ="fab fa-google-plus-g"></i></a></li>
