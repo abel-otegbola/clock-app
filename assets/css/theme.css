@@ -664,3 +664,16 @@ article[data-theme="bricks"] .clock .sec:before {
     background-color: white;
 }
 
+/*creative clock*/
+article[data-theme="Creative"] .clock {
+    background: url("../imgs/creative.png");
+    background-size: cover;
+}
+article[data-theme="Creative"] .clock .hr:before,
+article[data-theme="Creative"] .clock .min:before,
+article[data-theme="Creative"] .clock .sec:before {
+    background-color: rgb(0, 0, 0);
+}
+
+
+
