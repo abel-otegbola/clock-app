@@ -70,7 +70,7 @@ section {
     display: flex;
 }
 aside {
-    width: 230px;
+    width: 250px;
     padding: 0 0 20px 0;
     margin-left: 10px;
     background-color: rgb(255, 255, 255);
@@ -87,11 +87,24 @@ aside ul {
     margin: 0;
     padding: 0;
 }
+aside ul.modes {
+    margin: 0 15px;
+}
 aside ul li {
     list-style-type: none;
     padding: 16px;
     margin: 3px 0;
     cursor: pointer;
+}
+aside ul.modes li {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+aside ul.modes li:nth-child(1) {
+    margin-right: 3px;
 }
 aside ul li:hover,
 aside ul li.active {
@@ -218,7 +231,7 @@ footer .social li a .fab:hover {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     nav button {
         display: block;
         position: relative;
@@ -281,13 +294,12 @@ footer .social li a .fab:hover {
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px;
-  border: .2px solid gainsboro;
+    padding: 3px;
+    border: .2px solid rgba(0, 0, 0, 0.128);
 }
-aside ul li:hover,
-aside ul li.active2 {
-    background-color: rgb(150, 148, 148);
-    color: white;
-    border-right: 1px solid grey;
+aside ul.modes li:hover,
+aside ul.modes li.active {
+    border: none;
     transition: 0.5s;
-    border-radius: 10px;
+    border-radius: 5px;
 }
