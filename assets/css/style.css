@@ -116,6 +116,7 @@ aside ul li.active {
 
 aside ul li i {
     margin-right: 10px;
+    min-width: 20px;
 }
 aside up li:hover i {
     color: rgb(151, 58, 232);
@@ -124,6 +125,7 @@ aside up li:hover i {
 article {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     flex: 1;
     padding: 5%;
     padding-top: 13%;
@@ -192,6 +194,13 @@ article {
     height: 85%;
     transform: translateY(-25px);
     background-color: red;
+}
+
+.name {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 footer {

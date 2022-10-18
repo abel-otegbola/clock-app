@@ -29,6 +29,7 @@ function toggleMenu() {
 	document.querySelector("aside").classList.toggle("active");
 }
 
+
 // Classlist changes selector helpers
 const remove = (el, option) => {
 	el.classList.remove(option);
@@ -71,26 +72,28 @@ let themeContainer = document.querySelector("section article");
 
 for (let i = 0; i < themeButtons.length; i++) {
 	themeButtons[i].addEventListener("click", () => {
+		let currentTheme = themeButtons[i].getAttribute("data-theme")
 		for (let j = 0; j < themeButtons.length; j++) {
 			remove(themeButtons[j], "active");
 		}
 		add(themeButtons[i], "active");
-		themeContainer.setAttribute(
-			"data-theme",
-			themeButtons[i].getAttribute("data-theme")
-		);
+		themeContainer.setAttribute( "data-theme", currentTheme );
 
 		if (isMobileDevice()) {
 			toggleMenu();
 		}
-		localStorage.setItem("theme", themeButtons[i].getAttribute("data-theme"));
+		localStorage.setItem("theme", currentTheme);
+		document.querySelector("section article .name").textContent = currentTheme;
 	});
 }
-// Get the skin when app loads
+// Get the theme when app loads
 themeContainer.setAttribute("data-theme", theme);
+document.querySelector("section article .name").textContent = theme;
+
 for (let i = 0; i < themeButtons.length; i++) {
+	let currentTheme = themeButtons[i].getAttribute("data-theme")
 	remove(themeButtons[i], "active");
-	if (themeButtons[i].getAttribute("data-theme") === theme) {
+	if (currentTheme === theme) {
 		add(themeButtons[i], "active");
 	}
 }
