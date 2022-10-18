@@ -110,3 +110,18 @@ Quirky
 .dark article[data-theme="Creative"] .clock .sec:before {
     background-color: rgb(0, 0, 0);
 }
+
+
+/*Classic clock*/
+
+.dark article[data-theme="classic"] .clock {
+    background: url("../imgs/classic-dark.png") no-repeat right top; 
+    background-size: cover;
+    box-shadow: none;
+}
+
+.dark article[data-theme="classic"] .clock .hr:before,
+.dark article[data-theme="classic"] .clock .min:before,
+.dark article[data-theme="classic"] .clock .sec:before {
+    background-color: rgb(0, 0, 0);
+}

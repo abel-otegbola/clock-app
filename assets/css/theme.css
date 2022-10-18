@@ -679,4 +679,19 @@ article[data-theme="Creative"] .clock .sec:before {
 }
 
 
+/*Classic clock*/
+
+article[data-theme="classic"] .clock {
+    background: rgb(240, 243, 244) url("../imgs/classic-bright.png") no-repeat right top;
+    background-size: cover;
+    box-shadow: none;
+    
+}
+article[data-theme="classic"] .clock .hr:before,
+article[data-theme="classic"] .clock .min:before,
+article[data-theme="classic"] .clock .sec:before {
+    background-color: rgb(255, 255, 255);
+}
+
+
 
