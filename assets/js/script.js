@@ -16,7 +16,7 @@ function isMobileDevice() {
 		/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
 			navigator.userAgent
 		) ||
-		window.innerWidth <= 500
+		window.innerWidth <= 600
 	) {
 		return true;
 	} else {
