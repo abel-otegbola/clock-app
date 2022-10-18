@@ -96,4 +96,5 @@ for (let i = 0; i < themeButtons.length; i++) {
 }
 
 // Footer year
-document.querySelector(".footer-year").textContent = new Date().getFullYear();
+document.querySelector("footer .footer-year").textContent =
+	new Date().getFullYear();
