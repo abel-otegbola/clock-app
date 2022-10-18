@@ -78,8 +78,9 @@ aside {
     transition: 0.7s;
 }
 aside p {
-    margin: 30px 0 10px 40px;
-    font-weight: 500;
+    margin: 30px 0 10px 18px;
+    font-weight: 700;
+    font-size: large;
     color: rgb(219, 47, 4);
 }
 aside ul {
@@ -99,6 +100,7 @@ aside ul li.active {
     border-right: 1px solid rgb(139, 33, 232);
     transition: 0.5s;
 }
+
 aside ul li i {
     margin-right: 10px;
 }
@@ -271,4 +273,21 @@ footer .social li a .fab:hover {
 {
     border-radius: 10px;
     background-color: rgb(139, 33, 232);;
+}
+
+
+/* ------------------------- Ritika , 18-10-22 ------------------------- */
+.modes{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+  border: .2px solid gainsboro;
+}
+aside ul li:hover,
+aside ul li.active2 {
+    background-color: rgb(150, 148, 148);
+    color: white;
+    border-right: 1px solid grey;
+    transition: 0.5s;
+    border-radius: 10px;
 }

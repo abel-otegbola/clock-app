@@ -44,24 +44,24 @@ let colorButtons = document.querySelectorAll("section aside ul.modes li");
 for (let i = 0; i < colorButtons.length; i++) {
 	colorButtons[i].addEventListener("click", () => {
 		if (i === 0) {
-			remove(colorButtons[1], "active");
+			remove(colorButtons[1], "active2");
 			localStorage.setItem("colormode", "light");
 			remove(document.body, "dark");
 		} else {
-			remove(colorButtons[0], "active");
+			remove(colorButtons[0], "active2");
 			localStorage.setItem("colormode", "dark");
 			add(document.body, "dark");
 		}
 		if (isMobileDevice()) {
 			toggleMenu();
 		}
-		colorButtons[i].classList.add("active");
+		colorButtons[i].classList.add("active2");
 	});
 }
 if (colormode === "dark") {
 	add(document.body, "dark");
-	remove(colorButtons[0], "active");
-	add(colorButtons[1], "active");
+	remove(colorButtons[0], "active2");
+	add(colorButtons[1], "active2");
 }
 
 // Themes functionality
