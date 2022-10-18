@@ -15,7 +15,8 @@
 # Guidelines
 
 To contribute, please open an isue first.
-    1. Note: check if the issue you want to solve already exist. if it doesn't, create an issue with explanation of what you want to do.
+    1. Note: check if the issue you want to solve already exist. if it doesn't,
+       create an issue with explanation of what you want to do.
     2. Writing the author's name and the date modified is a must (Write it as a multiline comment in your code).
     3. Filename should be meaningful.
     4. Don't spam it will be rejected immediately.
